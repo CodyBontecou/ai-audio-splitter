@@ -1,0 +1,807 @@
+start	end	text
+189	689	All right.
+729	2530	Welcome to Happy Path Programming.
+3571	6692	Let's see, before we get into Trisha Gere, wonderful guest for today.
+6712	9974	We've got Winter Tech Forum coming up in a couple of weeks.
+9994	11374	Two weeks, exactly, almost.
+11715	14256	We're here in Crest, Dubuque, where we have lots of snow.
+14376	18298	And you can still sign up, and you might be able to go to the Yurt Dinner.
+18458	19018	It's hard to say.
+19954	26216	But we've officially released the rest of the places.
+26377	29418	But, you know, they can make a last minute call.
+29458	30098	It's a good time.
+30138	30958	It's going to be fun.
+30978	32059	It's a really good time.
+32079	33019	Yeah.
+33199	37621	And also, just wanted to mention, I have a couple of books on Lean Pub.
+38221	40802	There's Atomic Kotlin, and there's on Java 8.
+41242	48885	And there's, I mean, increasingly, perhaps poorly chosen title, but people still get a lot out of it.
+49961	73500	there the on java a on the on java 81 yeah nice cool right and then uh and trisha welcome and you have a book yes i see um i see your atomic kotlin book on lean pub a lot because when i'm checking the top 10 yours is in the top 10 the minds of number 37 that's really gratifying yes i have a book getting to know intelligent idea which is also on lean pub it's on amazon too but you know lean pub is uh
+74261	74661	friendlier.
+75202	78423	And you have a hardcover version.
+78523	92990	So I did it on Lean Pub because it's a nice platform, self-published, and then when I released it, so I released the first edition, me and Helen actually, released the first edition November before last, and then I felt a bit down after it was done.
+93030	94291	I was like, why do I feel down?
+94311	96852	Because I can't hold it in my hands.
+98193	103856	So then I looked into the KDP staff and so the Kindle Direct publishing, so you can
+104336	109459	upload a PDF to Amazon and they'll publish you a paperback in the hardback you want to.
+109819	110180	Oh, nice.
+110200	110380	Yeah.
+110600	111200	Yeah.
+111420	125489	I feel down after a book because I realize the nice clear meaning of my life just suddenly stops, you know, but before it's like, okay, we are existing to create the book and then it goes away.
+126189	133352	But it is nice to have the physical thing on the shelf behind you, which we're looking at Trisha's book behind her on the shelf.
+133452	136754	And Bruce has his books behind him on the shelf.
+136854	140715	I actually paid full price for Head First Java because I helped contribute to Head First Java.
+140875	146518	And I think my author copies weren't due for ages, so I paid full price so I could physically hop the book.
+147018	147858	Yeah, right.
+148039	148579	No, it's good.
+148759	150860	There's definitely something satisfying about that.
+151795	160239	So real quick on that book, it goes into, I'm guessing, IntelliJ and how to use it more effectively and what else?
+160259	164881	Because I was doing advocacy for IntelliJ at JetBrains for like seven years.
+165342	172965	So at the end of that night, I left a couple of years ago, I'm like, what I really want to sort of download everything from my brain into something that other people can use.
+173425	175086	So the book is split into four sections.
+175146	176167	The first section is kind of
+176947	184216	bit fluffy in terms of like how IntelliJ thinks, like where you need to be looking inside the IDE to look for the stuff that you care about.
+184617	187801	The second two sections are all sort of tutorial driven.
+187821	194349	And I use TDD with it as well because I wanted to show this is
+195330	201334	this is how to get the most out of IntelliJ in terms of like it will do code generation and it will make everything compile.
+201474	203916	And so there's two tutorial sections in the middle.
+204236	209720	And then the fourth section is actually like half the book, which is like everything else you need to know about IntelliJ.
+210320	218045	So it goes into depth about like run configurations and about like tips and tricks for debugging and how best to use the testing functionality.
+218145	225210	And I keep thinking about splitting that fourth section out and just having it as a standalone book because it's just got so much useful stuff in there.
+225511	225772	Nice.
+226634	226955	Yes.
+228159	230947	And so you wrote this book even after you left Jet Brands.
+231735	237939	We started it, I was trying to remember, because like history or blurs into one, post pandemic, everything is big.
+238900	244604	So me and Helen started writing it in my, what was to become my last year at JetBrains.
+245204	252869	And then I took a sabbatical and like you were saying about the purpose of my life in the sabbatical, I had two purposes.
+253449	258473	One was to help finish head first Java, which actually came, that came to me
+259224	266431	after I started writing the IntelliJ book, so I knew I couldn't have a full-time job and write two books at the same time.
+267132	278963	So I had like three months of Finnish head first Java and in some ways, I mean, that was a crazy time, but in some ways I sort of miss it because I'd be like, right, get up, get the kids to school, sit down and write the book and keep writing the game.
+279643	285051	And then when that was done, then I went back in and spent another like six months on the IntelliJ IDEA book.
+285112	288236	And I was like, we've got to get this out the door because we spent two years on it now.
+288336	291721	And it was supposed to be an easy thing that we can just quickly.
+294042	296985	I need a sabbatical so we can finish the effect on your programming book.
+297365	300888	Yeah, the siren song of the easy book.
+301309	303131	Yeah, never turns out that way.
+303151	304952	I think I might pick a hard book.
+305172	311919	I was having a conversation with Brian Getz at DevOps about how do you feel about updating Java concurrency, was it modern Java concurrency?
+313683	314804	That's a hard book.
+314884	317185	I don't think that's something you can just get out the door.
+317885	324769	Well, plus all the work that they've done on Lume has changed everything.
+324809	329432	So I think you'd just want to write a new book, which would be really hard.
+329452	330673	And what did he say?
+330813	331253	No way on earth.
+334895	340598	No, I mean, he was, he always said, I was asking him because he always said, when loom comes out, I'll consider it.
+341938	354264	And so then he was sort of saying, I don't know if this is like, you know, conference dinner, non-disclosure, but he was sort of saying the same thing that you just said, you can't really update the book and just like plonk loom on the end of it.
+354604	355244	Yeah.
+355605	356945	So he was considering
+359301	362002	having a part two book.
+362422	365523	So not a second edition, but like modern, modern Java.
+366003	366663	Exactly.
+366683	368584	Like the first book is still valid.
+368724	370344	All of that, none of that goes away.
+370804	373465	It's just that that's not the first thing you're going to think about anymore.
+373545	375906	Like how do we use fork join and
+376286	389956	You're going to use the executors pool and and loom and and things like concurrent data structures and all the stuff that's kind of come in since I think that I think his book was what Java 5, Java 6.
+390456	392098	So there's there's a lot to cover.
+392138	392418	Yeah.
+392438	392558	Yeah.
+394682	397483	Not just a refactor, I would say.
+397503	403746	I mean, if it was me, I would go, new book, you could draw from the material in there, but just make it a new book.
+403806	405666	That's what I would do if you're listening, Brian.
+406307	406987	Just my opinion.
+407867	417371	Well, maybe eventually you'll have a fleet version of your IntelliJ book, and it'd be interesting to see, can you just do a refactor, or is that a full rewrite?
+417831	424319	Yeah, I mean, fleet and some of the other options that I gotta say, I'm an old fashioned programmer.
+424359	426241	I'm like, I spent a long time learning IntelliJ.
+426381	428343	Like, I'm going to keep using IntelliJ.
+428764	431567	Oh, yeah, once you invest a lot of time in something like that.
+432128	432548	Yeah.
+433189	433850	Know your tools.
+433870	434851	It's hard to change them.
+436352	453143	It is, it is hard and Helen is still working at JetBrains and she's more of a sort of broad knowledge person so she's dipping in and out of the IDE so sort of hoping that maybe she might tell me what's different in the IDE's but I'm not going to spend 15 years learning fleet so that I can do a fleet book as well.
+455049	465283	Yeah, well, and I've tried it a couple of times and my initial reaction has always been, oh, well, this isn't, I mean,
+466331	468633	This isn't as responsive as VS code yet.
+468813	475618	So, I'm not, which I think is what they're trying to compete with, right?
+475898	477539	Pretty sure.
+477779	480421	The thought that I have when I use fleet is, oh, this isn't for me.
+481081	485164	Not because it's bad, but it's just, I'm not the sort of programmer they're targeting.
+485504	488386	And I think that's how I feel when I use VS code.
+488607	490308	It's like, yeah, it's similar.
+491201	501574	I'm, yeah, I don't know, I'm still, I mean, I use both VS Code and IntelliJ, but more, I don't know, most of the time, it's like, it's the little things.
+501754	503196	I find it's those little hurdles.
+503617	506781	And this is, you know, developer productivity is one of your things.
+506821	509905	So we can, we can work into that.
+509985	510105	But
+510509	520304	Those little hurdles are what get me and starting up IntelliJ and getting into that mindset versus just bringing up VS Code.
+520804	523989	Most of the time I'll just use VS Code and then I learn it.
+524330	526313	I learned more and more about it in the process.
+526833	527454	but it's that.
+527934	531797	It's almost just the startup time that gets me.
+532017	533318	And also the simplicity.
+533478	536401	It hasn't got this huge surface area.
+537702	540284	And I've discovered this in a bunch of things.
+541525	543286	It's the little hurdles that get you.
+544167	553234	And maybe we can move into the idea of test-driven development and testing in general, because that's a big thing for you.
+553254	554114	Because I just
+555155	567466	Recently in the last few days came across an article in my newsfeed where the guy was talking about, I don't remember, it was basically the things that didn't work in test-driven development.
+567526	573911	Because a lot of times, TDD is something that people will go, oh, well, you have to use TDD everywhere.
+574351	582158	And he's pointing out that, well, a lot of times, if you're doing exploratory programming, you don't know.
+583160	591684	If you're doing, if you're just trying to solve a specific problem, the test is really, is the problem solved or not?
+591884	596947	And so you don't necessarily build a whole bunch of tests and you certainly don't do the test first thing.
+597347	603330	And it's like, there's this kind of narrow area where you go, oh, we have the complete specification.
+603890	612474	We can start by writing the tests for that specification that fail and then, you know, but that's like not that big of a,
+613510	619357	It's not holistic of all the different things that you're doing in the activity of programming.
+619377	623822	Yeah, because so much of the time you don't have that full specification.
+623922	624183	Yeah.
+624743	626906	And if you do, sure, I can see why you'd use TD.
+626926	633353	Wouldn't the counter argument to that be that, well, you should probably go build that specification before you start writing code?
+634370	643915	Um, I, I guess, but it, but, but if it's, you know, if I'm just, well, certainly if I'm exploring, I don't know what that specification would look like.
+643935	649237	I'm just trying to figure out, is it possible to do this thing or do I want to do this thing or whatever?
+649457	650498	So what do you think about this?
+650858	653379	I mean, everything's about gray areas, isn't it?
+653459	653659	Right.
+653819	656280	And I'm a big fan of TDD.
+656821	661643	Um, I tend to write my tests first, even when I, so,
+662261	672446	When I used to interview people for a position where we had to have TDD as part of the job, people would say, yeah, I write my test first, except when I don't know what I'm doing.
+672566	673727	And then I write the code first.
+673787	678909	And I'm a bit like, yeah, but if you don't know what you're doing, why are you writing the production code?
+678929	683572	Part of the thing about the test is to write down the things that you don't know.
+685753	689614	Even if it's just the title of the test, what should it do if the connection fails?
+689674	692275	What should it do if the user gives you some garbage input?
+692635	697057	What should it do if, I don't know, if you don't know what you're doing?
+697117	706160	So I quite often use the test to make a note of all those things that I don't know, and then kind of use that to drive the solution.
+707200	715343	But it does depend a little bit on the application you're working on and how it's architectured, architected, and also what sorts of tests you're writing.
+715423	719305	So when I worked at Elmax, we wrote a whole bunch of automated acceptance tests.
+719325	721466	So you can be quite high level in terms of
+722026	739025	the behavior the user expects and we wrote the unit test too when you're doing the unit test you're going to be more precise about like it is definitely going to do these things when you do these sorts of things and on the acceptance test level you can write these automated tests which are like well you know it should definitely give me some sort of error if I do something stupid.
+740046	747775	But if you don't have those different levels of testing in a unit test where your unit tests are like one test, one class is very difficult to write that general.
+747835	753161	Well, I want it to do something definitely wrong when this weird stuff happens.
+753681	753922	Yeah.
+754302	754522	Yeah.
+755283	755503	Yeah.
+755523	757746	So there's like a spectrum with testing where I
+760552	781054	don't often write a lot of unit tests because a lot of the stuff that I'm building is really about integration and it's the integration points that are brittle and can fail or be flaky and so those are the places where I often start is like like what how should the integration work and so it's maybe a little
+781514	787165	unfortunate in some cases that I can't break that down into a unit test that has much value.
+787545	791212	But really what I care about is like, is this integration working as I expect it to?
+792520	803347	But then that makes my tests slower, other integration tests and the system that I'm relying on maybe needs a bunch of setup in order to have a valid test.
+805088	807630	My husband writes a lot of Android stuff.
+808991	813493	He and I both worked at the same place in London where we worked with Dave Farley with these acceptance tests and stuff.
+814174	817416	He wants to test drive a lot of stuff the same way that we did there.
+818036	826324	But he does find it, it's a very different beast when you're working with Android because you can't just fire up a quick unit test that does the thing that you want.
+826904	834171	But what he has found is that he often writes these integration tests or emulator level tests because
+834833	836954	You can think that way in terms of the overall flow.
+837254	842477	But then afterwards, he will sometimes refact those down to unit tests and be like, oh, you know what?
+842537	843837	I don't need the emulator for this.
+843877	846959	I'm actually only testing this part of the view or whatever.
+847399	852001	But again, I guess that's one way that I have to do it is I'll start with the integration test.
+852321	861586	And then I realize in trying to fulfill the integration test that, oh, there's actually a few places that I can break down into being unit tests.
+861666	863827	But I guess I'm almost in my TDD
+864907	872193	And a lot of stuff I build, I'm an integration test first kind of approach and then identifying the places that could be unit test.
+872293	875856	Yeah, because it seems like that's not driven.
+876016	884222	I guess that's the problem that I have when people are very rigid about, oh, you always have to write the test before you write any code.
+884743	886824	And I have discovered that
+888746	904340	When you're you know at some point well it's almost like when you're writing a book you write an example and then you start writing the pros and it changes or at least in my experience it often changes the example you go oh wait you know you're sort of rubber ducking.
+904861	906362	the example down on the thing.
+906502	909564	And so for me, testing will often do that.
+909664	915627	And you go like, even just to make something testable, you go, Oh yeah, that would change the design of it.
+916287	918289	But that isn't upfront.
+918449	926653	And I think maybe my problem isn't, it's the, the driven part, the, Oh, you have to get this test first.
+926893	927194	Yeah.
+927854	931356	And then fill in the, you know, connect the dots afterwards.
+931752	943057	I think for me, the key thing is to be able to switch between the two, like rapidly, because you can't just write 300 tests with no implementation and then write the implementation and expect everything to pass.
+943258	950621	Like whether you write the implementation and go, oh, now I know what the test is supposed to look like, or whether it's about going backwards and forwards.
+951121	957124	Because the other thing is that one of the, I went from this place I was working with Dave Farley, I started working at MongoDB.
+957464	959846	So I was trying to do test-driven stuff there.
+960868	969790	The pattern that they had been using is that, because we were working on the Java driver, so we had a specification on how the Java driver was going to talk to the database.
+970250	985553	So a lot of the design was sort of driven from the database, like upwards, if you like, which kind of makes sense, because we have a specification on how to talk to the database, and so you're sort of exposing that to the end user, and the end user is a Java developer who's trying to talk to MongoDB.
+986193	989614	But when you start thinking test first, you start thinking from the outside in,
+990034	995136	you start to realize that the API makes no sense when you're exposing what the database cares about.
+995656	999658	And when I'm a developer, I don't really care about whatever it is the database cares about.
+999758	1005681	I want an insert statement, which is going to take the thing I'm inserting and maybe some criteria.
+1006101	1009683	And in Java syntax, I would expect it to look like this.
+1010323	1012424	And so I sometimes find test driven development.
+1012864	1017346	That's why I learned that test driven development is very good for API design, because then you're starting to think,
+1017986	1019886	From the outside, what makes sense?
+1019987	1021167	What shape should it be?
+1021627	1025008	Instead of doing what we often do as developers and go, here's what you've got.
+1025088	1029208	Just do your best with this.
+1029288	1040351	Yeah, this is what makes sense based on the system that I'm abstracting over when the other way is to think, okay, this is what the developer actually wants from their API.
+1041071	1046472	Right, and I think the biggest thing that I've come away with is when you
+1047452	1052814	do the testing and you go, oh, wait, this doesn't make sense.
+1053094	1055595	I need to change the API to make it testable.
+1055795	1060836	It often or almost always improves the API in that process.
+1061236	1065998	So that hand in hand approach is just really essential, I think.
+1066420	1075427	Yeah, I think as long as you're doing both at the same time and evolving in both directions, because if you if you write your production code and then don't write any test, well, A, that's bad.
+1075827	1079289	And B, when you come to it six months later and go, Oh, it doesn't really work.
+1079349	1080370	And I need some tests.
+1081191	1088956	And you're too scared to touch the production code to make it testable because you can't remember what it does or why it works that way or which assumptions you made.
+1089136	1091318	And it's just difficult to do it afterwards.
+1092659	1095181	Yeah, I think there's an important point that you brought up around how
+1096220	1108472	I think TDD is in some ways presented as this idea that you mentioned of like write your tests and then switch over to your production code and then only in production code get all of your tests to pass.
+1108892	1119042	And I think in reality, you've got this inner loop where you're going back and forth between your test code and your production code and you're modifying them both at some point
+1119702	1134697	And that is, I think, not generally the way that TDD is presented as the way that you should do it, but the reality to be, I think, productive is that you kind of do have to be going back and forth, adapting things.
+1136018	1141123	I feel like when Luciano introduced it, that's the way he did it.
+1141163	1142565	He goes, okay, what do you want to do?
+1143049	1144589	All right, first write the test for that.
+1144789	1146010	Okay, now implement the code.
+1146070	1148410	And it was just one thing at a time.
+1148690	1154531	And that did make more sense to me, but often I go, well, I'm not sure what I wanna do at this point.
+1154671	1158812	I don't know what's possible or whatever, but that's just me.
+1159132	1169274	There's, I think a third piece to this that I often do is think about the data model and the functions around that data model is almost like a separate thing.
+1169334	1171034	Like I've got the functionality
+1171434	1175137	but then I've got the data model and functions, and then I've got the tests.
+1175757	1184644	And a lot of times I start with my data model first because to even write a useful test, I have to have the actual objects defined.
+1185064	1195772	But then when I define like a function, I, in Kotlin used to do or in Scala use triple question mark as being like, all right, my test is going to blow up when I actually try to call this function.
+1196465	1205071	And that gives me the name that I can reference, but then allows me to write the test against that function that is not yet implemented.
+1205091	1213057	I guess in Java you could throw not implemented exception or something as well, but the triple question mark should end scholar to do and Cotton's pretty nice for doing that.
+1213838	1222686	So I kind of like build out the data model and the functions, but then there's that like circular loop between all three of those different pieces to actually kind of get to where I want to go.
+1222847	1223888	Right, right.
+1224308	1227291	Um, is this a segue that we could go into?
+1227331	1229273	I want to talk about, um, flaky tests.
+1229513	1230494	Oh, flaky tests, right.
+1230554	1231355	Cause that's a thing.
+1231375	1231735	Okay.
+1231755	1232836	Tell us about flaky tests.
+1232917	1233117	Yeah.
+1233137	1233417	What's, uh,
+1237801	1247387	I mean everyone has flaky tests like if you're doing any kind of like especially integrations is only like would you only usually get a flaky test on an integration test or is this happen.
+1248049	1256833	I mean, I think you probably, you're going to find flaky tests more frequently on, um, when you've got independent systems or messaging or integrations or like, yes, anything.
+1256853	1261756	I mean, you can define flaky tests.
+1262256	1272581	The easiest definition of a flaky test is you run a test and it fails and you run it straight afterwards and the same hardware, the same JVM, the same everything else and it passes.
+1273109	1275050	So it's a non-pure functional test.
+1275070	1278633	It's a non-deterministic result.
+1279233	1287960	And so, you know, and obviously there's different variations in that it mostly passes, but every now and again it fails versus, you know, pass fails, pass fails, pass fails.
+1288000	1295385	But ultimately, if you can run it under the same circumstances and sometimes it passes and sometimes it fails, it's flaky.
+1296243	1297324	Yeah.
+1297344	1303729	These are challenging because you then get your CI system that is flaky.
+1304150	1313657	Like the flakiness then propagates to cause you a lot of challenges in keeping that main branch green or whatever.
+1313677	1315839	And how do you solve this problem?
+1318419	1319160	Yes, I come to that.
+1319480	1330553	My main problem with flaky tests is that even if you have one flaky test in your whole test suite, you stop trusting your tests because you're like, you already know, sometimes it passes.
+1331294	1337141	And so you start rerunning things, whether you rerun it like locally or whether you get your CI to rerun things.
+1337489	1340871	this becomes inefficient, use more resources, ultimately more money.
+1340891	1346494	And what does it mean to pass a test, your test when one of them is flaky?
+1346674	1347494	What does that mean?
+1347814	1348735	You can't trust it.
+1348815	1359920	You've invested all this time writing tests, whether you did TDD or whatever you did, you've written tests, you have tests, but they are not doing the job they're supposed to do because you don't have the confidence that
+1361181	1374067	The tests are doing what they say they're doing and you don't have the confidence that your production code is working properly because if your test fails sometimes you're like Is it the code?
+1374208	1376128	Is it my CI infrastructure?
+1376269	1377629	Like what what is it?
+1377749	1380411	And if I can't trust my tests, why write them?
+1381462	1386547	Well, so here's the thing is that I have an argument, my first argument for what to do about flaky tests is delete them.
+1387167	1393253	Just like just delete it because I really do think that they cause more pain than any kind of
+1394099	1395520	security you get from that test.
+1395540	1401984	Because every time it passes, you're still not kind of tricked into believing that it actually works.
+1402284	1402524	Right.
+1403045	1404045	And so I think they're toxic.
+1404085	1410549	I think that they lead to this lack of faith in your test suite and not to mention the cost, the time cost and all the rest of it.
+1411029	1412490	So my first answer would be delete them.
+1412851	1414532	But obviously you should try and fix them.
+1414572	1415973	And there's a bunch of different ways to fix them.
+1416013	1417574	So Dave Farley has a good video on this.
+1417854	1420295	He talks about the five causes of intermittent tests.
+1421976	1427839	And so there's things like infrastructure changes that can happen underneath you, especially if it's a CI environment.
+1427859	1429520	It talks about things like versioning.
+1429600	1434242	So you run it in one environment, and it's fine.
+1434282	1435783	But in another environment, it's not fine.
+1435803	1444527	But you haven't versioned in your code, like I expected to be using this service, this version of the service, or I expected to be using this version of Java or whatever.
+1444587	1449809	So obviously from Dave's continuous delivery point of view, his whole thing is like everything should be codified.
+1449829	1450790	You can't just rely on
+1451170	1472783	it's probably there and it's probably what i expect so that's that's another thing and then of course there's a lot of things about asynchronousness and messaging and weights and timeouts and race conditions and that kind of thing when i went with david at lmax there was a we had a bunch of flaky tests they were mostly timeout based stuff because we were using asynchronous messaging
+1473403	1478765	but it turns out that one subset of failing tests were failing for production reasons.
+1478806	1493352	There was actually a race condition in the production code and the only way we found it is because we hammered it with a bunch of acceptance tests every 40 minutes and that would bring in this race condition in the subset of the tests.
+1494401	1505272	The flaky test could be indicating to you that you've got a deeper problem, like a race condition that only surfaces given some particular state of the system.
+1505292	1508356	When you're using concurrency with flaky tests.
+1508716	1514842	So would it make sense to have a separate suite of flaky tests?
+1515686	1524290	So you have your, your tests that always should work and then your flaky tests that you run when you're looking for deeper problems.
+1524931	1530654	So, so one of the approaches I was talking, so one of them, right, I've got so many things to say.
+1531394	1536697	Um, working at Gradle, we have a product called dev velocity, which does identify your flaky tests for you.
+1536817	1538417	So when a test fails, it reruns it.
+1538558	1541239	And then if it's, if it fails and passes in the same,
+1541798	1543339	set, then it flags it as flaky.
+1543399	1545519	So you get to see your flaky test.
+1545539	1546320	So that's a great thing.
+1546640	1548260	Visibility of a flaky test is a good thing.
+1549021	1553302	So then I was discussing with my fellow developer advocates, like what do we do about flaky tests?
+1553783	1554263	Do we just...
+1555438	1562021	From a developer advocacy point of view is our message, you have to fix your flaky tests because they're noise and all the rest of it.
+1562442	1566103	And we realized, of course, there is a subset of tests which will, by definition, be flaky.
+1566504	1567364	Things like, well, flaky.
+1567844	1570506	Not always give you the result that you expect.
+1570666	1580771	So for example, one set of tests that we were running at this place were effectively smoke tests against third party libraries and third party systems and things.
+1581511	1582972	And they can fall into different categories.
+1583112	1584874	One is, you know, their test system is down.
+1585034	1586495	So like the tests are going to fail.
+1586875	1588356	Another is they've changed the version.
+1588597	1593560	You kind of want your tests to fail if they change something and your tests expect one thing and get something else back.
+1594021	1598424	And another is, you know, just integration is a point of potential failure.
+1598464	1600966	You can't, you can't time out.
+1601286	1602447	Your time out can't be infinite.
+1602587	1604069	Sometimes stuff goes down.
+1604169	1605750	So yes, anything which
+1606618	1614780	The test is valuable, but there is a non-zero chance that the test might fail for probably infrastructural reasons.
+1615321	1624143	Then you want to run those probably separately so that they're not part of your, whatever you call your, you know, your acceptance testing commit bill, whatever it is.
+1625043	1633606	So then you can see, so you should have a set of tests, your unit tests and even end to end tests, which you can rely on so that the whole thing can go green.
+1633986	1635386	like all the time in theory.
+1635767	1641988	And then anything which is like, well, we just want to make sure it's probably not really stupid can be a little bit off to one side.
+1642148	1642728	So that's one side.
+1642748	1650770	It's part of the underlying challenge here that we typically have a red-green approach to test passing.
+1651450	1661293	And there are cases where maybe it would be better to think about it in terms of a risk level or a
+1661673	1671648	like probability level or like like hey you know we're a 98% confidence that like the system is is good and you know that.
+1672572	1678095	rather than always saying you're either at 0% or 100% is kind of the red-green approach.
+1678695	1683617	You're probably right because if you think about performance tests, there's usually some hard line on a performance test.
+1683657	1688680	So we had performance requirements of a latency of under 10 milliseconds or whatever it was.
+1689080	1694043	So you want your performance test to be under that, but it's not.
+1695163	1699666	You can still argue it's red and green, but it is on a scale.
+1699766	1706489	So like you want to be able to see when you're getting to like nine milliseconds, you should probably do something about that and bring it back down again.
+1706909	1709811	So it's not just a case of it's fine or it's not fine.
+1709851	1715914	It's like it's fine or it's not, it's kind of fine or it's really going to get to be not fine quite soon.
+1715934	1719836	And I think that's, I mean, we live in a world where there's, it's not red and green.
+1719876	1722798	It's not black and white, but everything's on a bit of a scale.
+1722838	1724199	You know, it depends, you know?
+1724679	1725940	Yeah.
+1727041	1730704	We don't ship perfect software to production.
+1731364	1733446	We know that our software is not perfect.
+1734066	1737049	What level of imperfection are we okay with and still shipping?
+1738149	1750319	Maybe a future improvement to CI systems would be able to say, how much flakiness do you want to allow to consider this green or able to be merged?
+1752640	1758225	You should also be able to flag like I expect this to be flaky sometimes versus I did not expect this to be flaky.
+1758725	1765310	I don't expect when I run into my services under my control for them to not speak to each other or whatever it is.
+1766291	1772095	I think the binary idea goes unfortunately filters up into management as well.
+1772615	1776478	You know when we had this idea of test coverage which hopefully is going away
+1777699	1782601	You know, if the managers would go, well, of course we want 100% test coverage.
+1782641	1785462	And then we had to go, oh, this was a bad idea.
+1785482	1788644	We need to change this model.
+1788664	1790485	But it was measurable.
+1790845	1794426	So you can't manage what you can't measure.
+1794446	1796167	That's what they say in business school.
+1796187	1797348	That's what they say.
+1798428	1798708	Right.
+1798808	1800470	So we got to have, we got to have measures.
+1800650	1806554	And if we're going to measure it, then if I'm going to get a promotion, then it's got to be a hundred percent.
+1808196	1809597	This comes back down to the book writing.
+1809737	1815121	It's like 80% complete for like two years, 20%, which is really hard.
+1815521	1819364	The last few percent are the ones that it's hard to get out of.
+1820825	1824088	So different approaches to dealing with flaky tasks.
+1824368	1827410	Maybe the, the Uber point is that you
+1828271	1835916	you should put some thought into how you're dealing with and how you're classifying flaky tests and there's different approaches that you can take.
+1836296	1843061	You can do retries as part of that in the GRPC Kotlin project that I maintain.
+1843101	1844362	We have a flaky test and I have
+1844882	1845922	No idea why it's flaky.
+1846383	1847943	I've not been able to figure that out.
+1848443	1857006	And so there's a cool gradle module, gradle plugin that I use that just like retries the whole test suite multiple times.
+1857506	1865588	And it's kind of a brute force approach, but ultimately, you know, I get a green build and that feels good.
+1866488	1872771	But so retries at some granularity is probably one strategy that you can take.
+1873331	1881595	But then I think you mentioned a few other possible approaches that you could take, and maybe something that the Great Old Develocity tool helps with.
+1881695	1886497	So Develocity uses the retries thing from Great Old, but also from Maven to be like,
+1888238	1889498	to flag it as flaky.
+1889538	1894842	So at least you're going one step further than, I retried it, it went green, so it's all good.
+1894862	1899724	I retried it, it went green, but hey, I don't think that's right.
+1900085	1906808	So Develocity kind of flags that and it shows you like these are how many flaky tests you had in this build and you can look at it over time.
+1906828	1909590	So you can see your most flaky tests, which is really helpful.
+1909970	1912772	The other thing that came into a more recent version of Develocity is
+1913272	1929149	the way that I've done flaky test detection in the past which is from build to build given that things haven't changed this test tends to go red green red green red green so it's probably flaky and so then you can prioritise them and then this allows you to actually do something about your flaky test because
+1929673	1932534	When I go to conferences and I ask people, do you have flaky tests?
+1932694	1934455	Some people say, I don't know.
+1935075	1936956	And that worries me very deeply.
+1937316	1944040	Because I know that when we work on very complex systems, which most of us are working on complex systems these days, our CI system is like.
+1945300	1946960	I'm not going to say it's red all the time.
+1947000	1959984	I'm going to say it's red sometimes, it's green sometimes, and I don't really know what is the real state of my tests in CI because, like you say, are they 90% passing or 1% passing?
+1960004	1962184	Because it went red, and I'm not really sure what that means.
+1962784	1968806	And with some, at least some visibility over the flaky tests, we know, well, this goes red 20% at the time because of flaky tests.
+1968886	1968966	And
+1969426	1974567	Maybe you can put them into a different part of the build or we talk about quarantining them.
+1974908	1978388	I've worked in a place where you put an annotation on them, which says ignore until.
+1978749	1983330	So you give yourself like two weeks to kind of like fix it.
+1983390	1986731	And then if you haven't fixed it, it starts fading.
+1987331	1989151	Oh, that's a cool approach.
+1989251	1990812	Is this part of devalocity?
+1991272	1996858	No, this was when I worked with Dave Farley and we had like, we used a JUnit annotation to... Oh, we priced our own annotation.
+1997038	2006527	So the JUnit annotation like gives you a time box that you can ignore the flakiness for and then the tests are absolutely failing after that.
+2006547	2009610	Yeah, it doesn't run the tests for a while and then when the date goes past, it starts running it again.
+2009630	2014916	And then if it fails because you forgot to do anything about it, you're like, oh yeah, I really need to get on that thing.
+2015576	2025485	It's a good point because since I added the retry to GRPC Kotlin, I have totally forgotten that I should at some point investigate that I have a flaky test.
+2026025	2029008	Now it's just like, oh, the build is green all the time.
+2029068	2033452	And so bug fixed when in reality the bug is not fixed.
+2033832	2036775	And so that's one of the things we talk about from Gradle as well.
+2036795	2038217	And the Gradle developers do this.
+2038257	2045464	They schedule flaky test days so that instead of working on production code or whatever, today is a flaky test day.
+2045484	2046705	So we're going to use devloss tea.
+2046745	2049007	We're going to rank our tests by something.
+2049088	2050829	It might be most flaky or it might be
+2051770	2078370	um the ones that get run the most or whatever it is by some metric and then just go go right that's the one i'm yeah some information to guide you to what should be a higher priority than than other things yeah and you could see things like if it's obviously if it started becoming flaky in the last week then that allows you to drill in oh what was that commit what did we do or did we change something in ci in that time so you have more metrics to kind of dive in and try and troubleshoot the problem awesome
+2078658	2080459	So what does dev velocity do?
+2081739	2085540	So dev velocity is, I'm not sure we've got a succinct way of describing this at the moment.
+2085600	2087141	It is a developer productivity tool.
+2089822	2095104	It's on-prem, it's installed on-prem at organizations, and it allows you to do a number of different things.
+2095564	2097144	One, it helps speed up your build.
+2097524	2100605	So it provides things like build caching for Maven and Gradle.
+2101006	2107848	So Maven doesn't generally have, there is an open source build cache, but dev velocity has a better one, I have to say that.
+2108568	2116574	I don't know what the difference is, but there's a build cache, so it allows you to to cache the output of various builds, so you don't always have to rerun builds, you get faster builds.
+2117175	2124120	So Devil Oste provides acceleration technologies, but it also provides analytics like flaky tests, build failures.
+2124541	2129885	And what I think is really interesting about this is it provides it not just for CI, but for your local builds too.
+2130365	2132247	So in one dashboard, I get to see
+2132967	2151031	This test which passes all the time on ci is very flaky locally and it might be a resources thing or it might be a configuration thing or whatever or I can see if one of my tests fails in my build and I go to dev velocity and look at the history I can see oh this fails a whole bunch for like these people on my team.
+2151511	2153753	And so I'm going to speak to those people about how they fixed it.
+2153893	2162981	So it pulls together all these stats from your builds, like local builds and CI builds, and allows you to actually start using that information to make improvements.
+2163501	2167445	So my experience of builds, be it Gradle or Maven or whatever, or Ant or whatever,
+2167945	2180450	is that someone creates the build, and then we all tentatively touch it from time to time, and we try not to break it, and then we just kind of live with it and accept it as it is.
+2182791	2188174	It's come out of the experience that the Gradle folks have had doing consulting for companies that run Gradle.
+2188675	2191256	Here's all the things that you can do to improve your build.
+2191597	2193278	This is how you can improve the performance.
+2193338	2196299	This is how you can improve parallelization.
+2196820	2198841	You need visibility over these sorts of things.
+2199381	2204625	And it kind of says you shouldn't accept the build as a static thing.
+2204845	2208147	It's kind of living code the same way our code is.
+2208827	2220864	And if we could actually just look at it, inspect it, get some analytics and provide some tools for things like acceleration, then it doesn't have to be this annoying thing that everyone's scared of touching that slows us down.
+2220944	2223848	This is something that's actually can help aid our productivity.
+2225017	2229339	So in production systems, we have observability and ops.
+2229740	2235023	And it sounds like this tool is essentially like ops and observability for builds.
+2235443	2236824	Right, exactly.
+2236904	2242787	And so I read something in release it, the second edition of release it.
+2243187	2243688	And he says,
+2244648	2255211	it says that we should be treating our development machines and our QA environment like the production environment because it's our environment for producing the code that goes into production.
+2255731	2262832	And yet actually we quite often just ignore this or have like crappy QA environments or like cheap laptops for developers.
+2263593	2265453	We don't clean stuff up after ourselves.
+2265473	2267474	You know, we're just trying to get by.
+2267494	2268134	And so
+2269534	2271596	Things like dev velocity are kind of stepping the direction.
+2271896	2280403	It's a step towards developer productivity and dev x and platform engineering and those kinds of things of like, let's take this area seriously.
+2280923	2282845	Our development environments are important.
+2283005	2291071	Our testing environments are important, staging, CI, all of those things should be monitored the same way that we would with a production environment.
+2291251	2297957	And we should be investing time and improving those things rather than just going, well, you know, the build takes 10 minutes and it is what it is.
+2298612	2298812	Right.
+2298972	2302715	Well, but those things are not what the customer's paying for.
+2302755	2305237	The customer's paying for that code that we're working on.
+2305617	2307058	So those things are secondary.
+2307078	2310521	But that's why DevLosty is kind of interested.
+2310541	2311462	Developers are free.
+2311502	2311702	Yeah.
+2312775	2315477	The dev velocity is interesting because then you've got statistics.
+2315497	2321061	So you can say, let's say you've got a 10 minute build time for everyone on the team when they build locally.
+2321381	2326204	Now you have stats for how long the build takes, how frequently your developers run that build.
+2326524	2340053	And then all you have to do is times that by your average developer salary and figure out, oh my God, we are losing so much money just because we haven't invested a couple of days in figuring out how to reduce our build time.
+2340814	2346639	But this can backfire and make developers unhappy, because when are they going to go out and sword fight in the hallway?
+2346859	2350201	I was going to do a video about that.
+2350221	2355445	I was going to do a video about when developers don't want to improve their productivity.
+2357087	2358327	Actually, that could be very funny.
+2358348	2361550	I've worked in environments like that.
+2361630	2363772	I need these long builds, so I have time to look at Twitter.
+2364292	2365192	Right, exactly.
+2365272	2368853	I need to, or I need to, I don't know, go out for a smoke, whatever it is that people do.
+2368873	2372654	We used to, actually, so here's a story that's going to go in that video, I hope.
+2373075	2377536	When I used to work at a big investment bank in London, we had three hour release times.
+2378056	2380857	And so, and we would have to kick off the release end of day, 6pm.
+2382301	2385504	This is clearly when I didn't have children or a family or a life, actually.
+2385524	2387446	So we would do these releases.
+2387486	2393973	This is released to QA, by the way, and we would have to do this every week for a three month period while we're going through the testing phase.
+2394514	2400520	So we would kick off the release process, which starts off with database migration or whatever it is.
+2400960	2402442	We'd go downstairs to the pub.
+2402822	2404923	We have enough time for a drink each.
+2405243	2411165	We come upstairs, we kick off the next process, go downstairs for another drink, come back upstairs.
+2411745	2418807	And because I'm not going to sit in an empty office, it was me and my colleague, I'm not going to sit there in an empty office for three hours staring at a progress bar.
+2420147	2423549	And so we did talk about improving that build process.
+2423929	2429271	And there's a lot of pushback, the normal stuff of, oh, you can't automate this because what happens when it goes wrong?
+2429311	2434193	It's like, it's literally 12 pages of scripted things to do.
+2434793	2437854	That seems like something we should be able to automate, right?
+2438415	2441816	And then we could actually kick that off and go to the pub for three drinks in a while and then come back.
+2442356	2443376	I have to go back and forth.
+2444177	2444337	Yeah.
+2444777	2448358	So yeah, so there's times when we don't necessarily want to improve our productivity.
+2448738	2460381	Similar sorts of organizations where if as developers we don't really feel valued and we do feel like we're measured by the amount of time we sit on the chair and in front of the computer,
+2461121	2467763	why would I want to be more effective and more productive during that time when you're literally just measuring bum time on the seat?
+2468244	2480588	I can kind of, I would quite happily manually run this script and manually copy this from here to here because I'm filling my time with something useful instead of optimizing it so I can do something else.
+2482335	2482615	Why?
+2482635	2490321	It feels like there are fairly easy, straightforward ways to improve developer productivity.
+2491141	2497246	And yet it seems like generally organizations do not invest in improving productivity.
+2497306	2504111	Just as like a silly example, I think a lot of especially enterprise developers work on really crappy machines.
+2505272	2514482	And organizations could spend a few thousand dollars per developer, get them good machines that actually aren't super slow and always running out of memory and whatever, but they don't.
+2514502	2516384	Because of accounting.
+2516904	2518006	Yeah.
+2518026	2523472	But why has it been so hard to convince organizations that developer productivity is worth it?
+2524453	2525394	It's worth investing in.
+2527369	2530512	I don't really know the, oh, I don't know the answer to that question.
+2530852	2532414	I do know the laptops is a good one.
+2532814	2536437	I worked at another investment bank in London where I went there.
+2536457	2543103	It was when I was working at ThoughtWorks and I went there with my ThoughtWorks Mac and then the bank gave me this thing.
+2543124	2548488	They're like, here's your laptop from 1982 that you can use to build the software with.
+2548889	2550791	Don't hurt your back picking it up.
+2551671	2553353	I'm like, this is not portable.
+2554694	2557317	And what do you expect me to do with this thing?
+2557377	2559419	It takes, and I could measure it compared to the Mac.
+2559799	2560600	It was a MacBook Air.
+2560640	2568007	It wasn't like some super powered Mac, but the MacBook Air would run things four times faster at least than this brick, right?
+2568287	2569648	And so here's an interesting thing.
+2569668	2571950	And this is something I've been finding with dev velocity is that
+2573132	2585123	One of the problems is that I don't want to blame developers, but as developers, we've been told that we don't have any power over this and we are kind of at the mercy of accounting.
+2585724	2592650	But once you start collecting some statistics, like with DevLosty, we saw that we collected statistics of things like build times.
+2593243	2601725	So we've done this study where build times for one organization, I can't remember what the overall build time was, but let's say it's 20 minutes because it's not unusual.
+2602965	2609846	And you build it even on an M1 Mac and then you build it on an M2 Mac and it takes like half the time.
+2610347	2614047	And then they did the calculation of time versus developer salary.
+2614847	2618888	And like how long will this pay itself off?
+2619068	2622249	Like if we buy everyone an M2 Mac, like how long will it take to pay that off?
+2623269	2623421	Like.
+2623971	2629775	six weeks or less, you know, some crazy, because we're measuring for all the wrong things.
+2629915	2638501	And if you can measure things, if you can find things to measure, which impact our productivity, which is why build times is kind of interesting one, because you can measure that.
+2638982	2641463	And then start putting financial numbers on this.
+2641844	2645786	Then someone else goes, Oh, yeah, that's, that's a lot of money.
+2646127	2647848	We should probably do something about that.
+2648068	2649329	So speak in the past.
+2649429	2651731	Developers have been like, my build is slow.
+2651831	2653192	And accounting goes, okay,
+2654613	2656014	Right, we don't know what to do with that.
+2656134	2672124	Yeah, so you're saying, okay, acknowledge that the accountants are running things and just speak in their language, which is, I'd say, step one, but step two would be maybe we should put decision-making.
+2672524	2676247	Some decisions should be made not just by the accountants.
+2677609	2679011	Right.
+2679232	2689650	I've been speaking to some potential customers of dev velocity and some of the effective ways of making changes for developer productivity is a sandwich approach.
+2690083	2698372	So someone at like maybe sea level or certainly some sort of like senior engineering level decides developer productivity is important.
+2698592	2699993	Our developers are expensive.
+2700033	2701955	They're one of our most expensive resources.
+2702556	2703817	Let's get the most out of them.
+2703877	2706500	Not like squeezing lines of code out of them, but like let's
+2707481	2722804	enable them to be good at their job this is this is an important thing for this company so someone at the top level says that and the developers go great this is definitely something that i want i don't want to be wasting time waiting for staff or struggling with a terrible laptop or
+2723348	2727409	waiting for CIQ times, which are like 90 minutes till my build gets in there.
+2727869	2735631	So if you have the top level and the developer level, you can kind of effectively squeeze in towards middle management and push in both directions to affect the kind of change.
+2735951	2747273	Because often what you find at the mid-level, there's a lot of competing different objectives for competing different managers, and a lot of them are just obviously trying to push out features and not thinking about like developer productivity.
+2747313	2752454	So if you can target it from the top level and the bottom at the same time, then you can really start to affect change.
+2753291	2757322	Well, I'm seeing the future as well we have
+2758976	2761198	We have human limitations in all of these things.
+2761238	2775809	You know, the accountants see it from their viewpoint, the CEOs see it from whatever they're, and I'm thinking, we are gonna eventually replace the C-suite with AI, and they can see, that'll see everything.
+2776429	2782494	And it won't be these little siloed bits of knowledge that are limited by what that person has been exposed to.
+2783434	2786617	And companies are just gonna run so much better.
+2787230	2789311	But yes, I would love that.
+2789811	2794833	But I also feel like an AI is exactly the same as a human being.
+2794973	2798934	It learns based on the weights you give to certain objectives.
+2799074	2802475	So the AI is still going to optimize for something.
+2802495	2804316	Or what are they going to optimize for?
+2804436	2804716	It is.
+2804956	2808157	But I'll say the difference is the human being can hold whatever.
+2809898	2811680	You know, five easily ignore information.
+2811781	2817248	Well, easily ignore information and can only hold whatever five to seven things in its mind at one time.
+2817668	2820452	So their equation is extremely limited.
+2820532	2824017	Whereas the AI can hold all of these factors.
+2824577	2825599	And that's the difference.
+2826299	2840608	It's true and for the AI, let's say, let's like, yeah, so the AI, if you had multiple AIs at the sea level, instead of them having to have a whole bunch of meetings all the time to sync, they're just kind of like sending messages to each other.
+2842549	2842889	Yeah.
+2843150	2847213	And I don't know that you would have all these little signs.
+2847233	2848794	No, no, no, exactly.
+2849155	2854419	It would just be going, oh, look, the developers are having trouble here.
+2854779	2858442	We need to fix that so the whole company moves better.
+2858562	2864187	And it isn't a matter of, well, I don't understand what long build times are.
+2864207	2864908	Right.
+2865608	2870092	the AI would know that and it would go, how can we improve all of these things at once?
+2870893	2882662	So one idea to run by you, we talk about developer productivity and we had a podcast a while back around the developer happiness.
+2883703	2892010	One piece of developer productivity is, do developers get fulfillment and enjoyment out of their flow and being able to be in flow state?
+2892510	2895492	But then there is the accounting side, at least pre-AI.
+2895952	2900554	And the accounting side, I think when we say developer productivity, accounting doesn't care.
+2901195	2919064	But if we said developer efficiency, like if we put it into the efficiency terminology, then there is something that maybe we could, and maybe with the velocity, we could actually have reports that illustrate like, oh, here's ways that we could actually make developers more efficient.
+2920625	2921245	Yeah, I don't know.
+2921285	2929812	It seems like maybe by classifying everything as developer productivity, we're not actually accomplishing the goals that the developer wants and we're not accomplishing the goals that the business wants.
+2930192	2932033	It's like we've kind of framed the whole thing wrong.
+2934113	2956163	Yes, I liked what you said about developer happiness because to me the reason why I'm really excited about developer productivity is not because I want developers to ship more lines of code or even put more features in the hands of users but because like you said like when I'm in the flow state I'm happy, when I'm like when I don't have to fight with my laptop or I don't have to wait for a
+2956643	2961106	million years for CI to give me the answer that I want, then I'm happy and I'm creative.
+2961246	2965069	And so for me, developer productivity equals happiness.
+2965389	2972514	But then we all saw the McKinsey report, which was like developer productivity is who to fire because they're not productive, which is not what we're talking about here.
+2973955	2974856	Yeah, exactly.
+2974876	2978517	Yeah, so there's all these different kinds of lenses to look at it through.
+2978537	2991463	We've kind of lumped them all under developer productivity, and maybe that's part of the challenge is that we should break it down into the more important things, which for us developers is, yes, I want to be in the flow state more.
+2992003	2993824	That is a fascinating thing.
+2993864	3001368	I mean, the McKinsey report that you just brought up is like, oh yeah, you can take this information and you filter it through your lens
+3002228	3007711	which is, oh, well, if they're not productive, get rid of them and get somebody in who that's the solution.
+3008151	3027721	Whereas the other solution would be, well, in all the layoffs that we're seeing now, I look at that and I'm going, so you spent all this energy finding these people and then as soon as a number flips in the wrong direction or somebody incentivizes you in a different way, you go, oh yeah, we'll just throw them away.
+3028162	3030283	You're going, that's so much.
+3030683	3034087	The question wasn't how can we make them more productive as well.
+3034287	3034707	How do we?
+3034888	3038011	Yeah, well, I mean, we're a publicly held corporation.
+3038632	3043737	Our obligation is to maximize shareholder profits.
+3044238	3046120	So that's what we do.
+3046320	3051646	And you're looking at it, you're going, yeah, but in the big picture, that's not maximizing shareholder profits.
+3051826	3059996	So dumb isn't it you just know like you say all that talent goes away all the goodwill from the developer community kind of you lose a lot of that.
+3060637	3071390	And the productivity goes down all the people who are left behind demoralized doing twice as much work and they're scared they're scared they're going to be let go as well.
+3071950	3077994	So in a not very long term, and within 12 months, it's already a losing policy.
+3078314	3078734	Oh, right.
+3078894	3088340	Well, and that's the thing, the inability of the sea level to look at the big picture, they are limited in their view.
+3088360	3088940	And again, I'm
+3093188	3101691	you know, I'm advocating for smarter systems and that would be, let's let the machines do it once they get better enough.
+3102171	3102872	I think we will.
+3103252	3108994	I think, I mean, in my opinion, the VCs are probably gonna start doing this.
+3109034	3118838	They're gonna go, well, if we can increase our hit rate, let's put the machines, you know, managing things, because then we're gonna make more money.
+3120563	3129430	So Trisha, what do you do when potential customer of Develocity comes to you and says, can you give me a report of my lowest performing developers?
+3130891	3135355	I had a conversation with the CEO about this this week because we're talking about
+3135970	3145592	how to talk about dev velocity in the context of space metrics and space and Dora and those sorts of things.
+3146292	3148513	And the CEO was quite clear.
+3148613	3153474	He was like, we will not use dev velocity metrics for individual performance.
+3153654	3155774	We fundamentally don't agree with that.
+3156494	3165096	The aim is to empower developers so that we are in a state of flow and happy and not facing friction and toil and slow build times.
+3165929	3170272	Yeah, but the answer to your question is it doesn't matter what you do.
+3170332	3173594	You're already screwed when they ask you that question.
+3173614	3181539	Yeah, because what they're looking for is how do they cut costs, not how do they make their developers more efficient?
+3181739	3182199	Sure.
+3182219	3182419	Right.
+3182439	3190104	And we quite often talk about the idea of being to increase throughput.
+3190564	3191705	So you're not
+3192526	3195608	not going to cut costs, you're going to try and increase throughput.
+3196408	3198209	So don't fire your developers.
+3198749	3200810	Why don't we just get more out of them?
+3200830	3208834	And that will make, if you can produce more, whatever that is, more features, or, you know, I don't even know how it works in various ways.
+3209214	3212256	If the code that the developers are producing is going to
+3212916	3230421	increase revenue then we should be focusing on that not on decreasing headcount because as you've already said like decreasing headcount doesn't make any sense because you're going to decrease costs sure but you're also decreasing throughput and then you're also decreasing your ability to improve that in the future because now everyone hates you.
+3233121	3233982	Switching gears real quick.
+3236287	3250355	As we were talking about observability for build systems, I wanted to ask you if you've seen this concept that I saw somebody talking about on Twitter a while back, which was the concept was, or the question was, why don't we write tests for a build system?
+3250715	3252196	We write tests for our software.
+3253257	3255260	to verify that our production system is going to work.
+3255780	3263131	Why don't we write tests to validate that our build system is doing what we expect it to, and doing it in the amount of time that we expect it to, and so forth.
+3263451	3267537	Have you seen this idea explored, or is anybody doing this?
+3268138	3269479	I think this is a great idea.
+3269859	3283988	And it's ringing bells for me because one of the reasons we switched to Gradle a long time ago in one of the places I worked is because you could separate out the build logic into modules that you could test.
+3285149	3286050	We tended not to.
+3286970	3288251	We were using AMP before as well.
+3288271	3292114	So you could do it with AMP because you can write little Java code and test that.
+3293680	3298486	I mean, it's kind of difficult because sometimes what you want to test is it moves a file from here to here.
+3298627	3301110	And like, that's the sort of difficult thing to unit test, right?
+3301230	3301450	Yeah.
+3301571	3308560	So, yeah, I mean, I would love to test a build system and check that it's doing what I think it's doing.
+3308660	3310563	And I think the first thing that
+3311789	3319117	that one of the things I like about Devalosti, not to pound it too hard, because actually, I'm still fairly new to to Gradle.
+3319457	3322740	And I'm still kind of, in many ways, I'm still trying to get them to sell to me.
+3322800	3325003	Like, what is this product and what's it for?
+3325063	3329327	Because like, I'm not the kind of advocate who's just going to go out and sell a product.
+3329547	3330528	I really have to believe in it.
+3330808	3334212	But one of the things I like about Devalosti, and I was using it today in a video, is
+3335313	3339857	well it's actually not even dev velocity it's the free build scans so that's nice it's free so anyone can use it.
+3340137	3357831	With a build scan you can see like visually the parallelism of your build so you can see like it's run five different threads and this is where the tasks were run and I really like that because it's not quite the same as an automated test but it's at least some kind of
+3358942	3361884	feedback into what is happening in the build.
+3362184	3372429	And so I use these build scans to be like, I want to tune the build now I want to, with this build I was trying to add parallelization, add parallelism, add the build cache.
+3372829	3375631	And then I wanted to also parallelize the
+3376091	3379072	individual tests, which is a separate thing too.
+3379392	3386293	And so I can use the build scan and look at them side by side, and obviously I can look at the overall time, but I can see, are these things running parallel?
+3386953	3390914	Which things came from the cache versus which compilations needed to happen again?
+3391314	3398216	And you can even do side by side comparison in terms of like, things like, which dependencies did this build use versus this build?
+3398256	3400036	So, I mean, that's kind of the first step.
+3400256	3412633	So you were using a tool to give you that information, and maybe some future could allow us to actually write a test to describe, yes, I want my test to run in parallel.
+3412974	3415738	This test should validate that my tests were run in parallel.
+3416038	3416378	Right.
+3416699	3418860	So we have some validation scripts at Gradle.
+3419241	3423324	When we go onto a customer site and set them up with dev velocity for the first time, there's two things we do.
+3423724	3424805	One, we set up dev velocity.
+3425045	3432952	But the other thing we do is we start optimizing their build for them so they start seeing the improvements of the acceleration part of dev velocity.
+3433510	3435352	And that is scriptable.
+3435432	3444999	So it does things like checks out an individual commit, runs it, checks it out to a different location, runs the build, and then sees if there's any differences and that kind of thing.
+3445039	3447781	And then you get like pass or fail.
+3448101	3456327	These things, the cache worked as expected because when I reran it, I got it from cache or the cache didn't work as expected because I reran it and I had to rerun everything.
+3456387	3459370	And so you can automate some of those kinds of things and
+3460090	3473310	and use those things to also check for regressions so let's say someone goes in in three months time and decides that they're going to one of the things that stops the cash from working is things like generated timestamps that kind of thing because obviously that's like.
+3474263	3479885	that a newly generated random number or timestamp, it can't... Somebody changes the build.
+3479985	3486408	They've added something that has made part of the build uncashable and build times go up, but you have no idea why.
+3486428	3487448	Exactly.
+3487508	3492830	So if you've got validation scripts and you're running them regularly, it can say this thing is no longer cached.
+3493451	3496012	So we've only got like four of these scripts.
+3496032	3497072	So it's a start.
+3497252	3498853	It's a very small start towards it.
+3499753	3501574	Yeah, I don't see why not.
+3501714	3508018	I don't see why we shouldn't be testing our build, certainly for performance, but also like, is it really doing what we think it's doing?
+3508098	3509819	Is it caching stuff when I expect it to?
+3509839	3511901	Producing the artifacts in the way that we expect them to be.
+3511981	3512521	Exactly.
+3512701	3514362	Is it like doing the right hash codes?
+3514442	3514923	I don't even know.
+3514943	3515903	Whatever it is that builds do.
+3516604	3517184	We should be able to
+3517662	3519322	check that the build is doing what we think it's doing.
+3519722	3522083	Yeah, yeah, that'd be fun to explore.
+3524824	3525264	Cool.
+3525564	3529865	Well, that's fun talking about builds and productivity and all that.
+3531045	3539987	Yeah, I think the thing that I'm most cognizant of from this conversation is the idea that all of that stuff
+3541624	3549186	I mean, it's hard enough for somebody in management to understand what it is that we're doing in the core of it.
+3549807	3555989	And then the peripheral ideas of, well, how long does, you know, how long do builds take?
+3556109	3557849	What are developer productivity things?
+3557929	3559250	That's just too much.
+3560481	3567446	And so that's why I think we run into these problems where we're looking at it and we're going, those are first class elements.
+3568146	3575571	And from somebody who you're trying to explain what it is that we do, that's just like extra too much.
+3576071	3577973	What do we get money from?
+3578213	3580795	We get money from the code that we ship.
+3581375	3582176	Those are other things.
+3582396	3583476	Those are just expenses.
+3584457	3585938	Yeah, or something.
+3586018	3587539	Those are peripheral.
+3587659	3588779	And how do we make that?
+3591080	3595243	Well, and even as developers for the longest time, we weren't thinking of that.
+3595423	3596943	Oh, I'll just rerun the compiler.
+3597784	3602126	And there's still places out there that are just not using automated builds.
+3602626	3603707	I think that's part of the problem.
+3603727	3609670	I think as developers, we've got really used to putting up with some crap, like long build times or
+3610299	3619984	flaky tests or a laptop that doesn't do what we want or we just we go from environment to environment and there's always like in whichever office we work in there's something which is just.
+3620985	3626868	This is something we just have to put up with as developers one of the things we can do to help our productivity is.
+3627808	3631252	start raising those kinds of start looking at things which really slow us down.
+3631292	3635916	You know what it does drive me crazy that the build is six minutes, which to me, a six minute build time seems reasonable.
+3636277	3639260	But six minutes is not enough time to do anything else.
+3639680	3642123	But it's too long to sit there staring at the build.
+3642863	3647508	I can start talking about these and these taking some metrics, these are the things which slow me down.
+3647908	3650230	Here's a metric that I get a lot with intelligent idea.
+3650831	3656055	If you change branches, when it re-indexes everything, it takes x amount of time, right?
+3656095	3658436	And these are things where we can be like, you know what?
+3658537	3661139	I do this three times a day and it takes this amount of time.
+3661559	3670206	And what can we do to improve these things so that I don't have to get jolted out of my flow and I can still be doing that lovely thing of, oh, I'm just going to fix this problem.
+3672012	3672993	That lovely thing.
+3673013	3677735	Oh, yeah, the whole flow thing, which is ultimately psychology.
+3677775	3684019	And that's even further outside of the realm of what so many people are used to thinking in terms of.
+3684139	3685359	But it's essential.
+3686300	3690722	I tried to do a video about how IntelliJ IDEA helps us to stay in the flow.
+3691002	3693644	I've been trying to do this video for like six years, by the way.
+3694355	3698657	And it's so hard because I'm like, but it's just flow, like it just is.
+3699197	3704760	And you can't fake flow in a screencast because you can't explain it while you're doing it.
+3704820	3710622	It might be one of the things that I've run into recently is trying to discover, well, trying to prove why inheritance and exceptions
+3724861	3729065	are problems, why they don't scale, why they don't compose.
+3729925	3737452	And I've sort of come to the tentative conclusion that, oh, I'm not going to be able to prove that.
+3738112	3738933	Right.
+3739153	3748401	And then so I need to take a different tack because I can't give a solid, you know, because people are using these things and they go, they seem to work.
+3748882	3749302	Yeah.
+3750099	3755261	And your video may be encountering the same problem.
+3755281	3759122	You're trying to solve it in a way that you can't.
+3759702	3760923	I think you're probably right.
+3761343	3762643	How do you know you're in the flow state?
+3762983	3764384	When you're in the flow state, you feel it.
+3764544	3766044	Yeah, it's like pornography.
+3766944	3767825	I know it when I see it.
+3768285	3770786	I know it when I'm in it.
+3771346	3774347	The inheritance thing is interesting because I was poking through a code base the other day.
+3774447	3778228	I'm trying to parallelize the tests, actually, because the tests take the longest time.
+3778926	3787653	And the tests all inherit from an abstract test, which inherits from an abstract test.
+3787713	3791476	And I was like, no, why are you doing this?
+3792336	3799402	And this is an experienced programmer who's done this, like, how do I say, don't do that, apart from just saying, don't do that.
+3800002	3801944	Trust me, it's just not working.
+3802872	3813443	Yeah, we were talking about the most important statement in the Gang of Four design patterns book, which is prefer composition to inheritance, and it should probably be
+3815151	3817273	Don't do inheritance.
+3817593	3819575	But yeah.
+3819755	3821196	And it's like, it's the same thing.
+3821236	3828262	You can't really, especially because we've had all this background and it worked in small talk and all this kind of stuff.
+3828322	3829003	It's like, why?
+3829283	3832186	The problem is, if somebody asks, why shouldn't I do inheritance?
+3832626	3836490	Then it's like, oh, I can't explain the why.
+3836510	3837631	Just don't.
+3839512	3841713	It gets nasty when it gets nasty, right?
+3841753	3848175	And then the inheritance thing, when you're talking about, you know, the duck thing that they do when hit first Java, inheritance is kind of fine.
+3848555	3853497	But in these tests, these tests, for example, there's like 200 tests, they're integration tests.
+3853997	3860079	It has this huge set up and teardown in one abstract method, a different set up and teardown in the other abstract method.
+3860699	3864101	And this is only really nasty when you're talking about hundreds of tests.
+3865796	3867837	But you have to see that thing scale.
+3867877	3869038	It doesn't scale.
+3869298	3874220	See, that's the problem with all of these things, with exceptions, with inheritance and everything.
+3874240	3875901	They seem great at first.
+3876061	3878842	And in the small, it looks simple.
+3878882	3879482	It looks direct.
+3879582	3881503	But then you try and scale it.
+3881863	3886906	And you go, oh, for some reason, this isn't really working, like in the small.
+3887606	3897352	We talked about this, well, back this idea that decision making through, through like quorum or something works great until you get to like five or seven people.
+3897872	3901454	And then you can no longer use that model for decision making.
+3901514	3901714	Yes.
+3901734	3902755	It's a lot of parallels to like.
+3902775	3911200	I think in terms of, I think we were talking about in terms of like language design and stuff, you have like three people and everything works really great.
+3911260	3912781	You go, well, I'll just make that bigger.
+3912801	3915983	And it's like, nope, doesn't work because of the psychological factors.
+3916403	3940276	Right yeah and we don't argue like trying to make decisions at home so I have a husband and two children honestly more than one person involved in the decision making is too difficult especially when you're talking about like well he's working now and then but I'll be working later and then he's got a meeting and then the kids have got a thing and then you don't speak for like three days and it would have been easy just to make the decision there and then and even if it's wrong it's just better.
+3940976	3941557	Yeah.
+3941837	3948681	Well, that's something I took a workshop in holocracy from the guy who created this idea.
+3949241	3964692	And the thing that mostly I got out of it was we front load our decisions with... When we make a decision, we go through all of this work to make sure it's the right decision.
+3965552	3972454	because if we have to revisit it, we assume we'll have to go through all that work again.
+3973034	3981696	And so this approach is you make the quickest decision that you can that doesn't have any obvious, you know, disproval.
+3982416	3990798	And then if it doesn't work, then you revisit it and you again make a quick decision rather than trying to presciently know
+3991718	3997139	everything about it when you make the decision, which makes it so heavyweight that you never want to revisit it.
+3997779	3999200	I think you've just changed my life.
+3999900	4002020	I think that would make my life a lot easier.
+4002921	4003181	Yes.
+4004881	4012203	As part of that, there's also the concept of like being able to perform kind of experiments that then you can validate to make the right decision or something.
+4012223	4013303	Yes, little experiments.
+4013323	4014543	Yeah, exactly.
+4014764	4017144	It's the same, I think it's the same sort of mindset.
+4017164	4017304	Yeah.
+4019485	4020205	Anything else, Tricia?
+4021570	4023352	No, I should probably go and check on my children.
+4023372	4025694	I have left them being babysat by Minecraft.
+4027176	4028117	I do that as well.
+4028337	4029378	It's a good babysitter.
+4031340	4033042	Well, thank you so much for joining us.
+4033062	4033763	That was super fun.
+4034343	4035124	Thank you for having me.
+4035144	4035925	This is really great.
+4036506	4036966	All right.
+4037367	4037627	Bye.

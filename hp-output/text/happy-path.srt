@@ -1,0 +1,3224 @@
+1
+00:00:00,189 --> 00:00:00,689
+[SPEAKER_02]: All right.
+
+2
+00:00:00,729 --> 00:00:02,530
+[SPEAKER_02]: Welcome to Happy Path Programming.
+
+3
+00:00:03,571 --> 00:00:06,692
+[SPEAKER_02]: Let's see, before we get into Trisha Gere, wonderful guest for today.
+
+4
+00:00:06,712 --> 00:00:09,974
+[SPEAKER_02]: We've got Winter Tech Forum coming up in a couple of weeks.
+
+5
+00:00:09,994 --> 00:00:11,374
+[SPEAKER_02]: Two weeks, exactly, almost.
+
+6
+00:00:11,715 --> 00:00:14,256
+[SPEAKER_02]: We're here in Crest, Dubuque, where we have lots of snow.
+
+7
+00:00:14,376 --> 00:00:18,298
+[SPEAKER_02]: And you can still sign up, and you might be able to go to the Yurt Dinner.
+
+8
+00:00:18,458 --> 00:00:19,018
+[SPEAKER_02]: It's hard to say.
+
+9
+00:00:19,954 --> 00:00:26,216
+[SPEAKER_02]: But we've officially released the rest of the places.
+
+10
+00:00:26,377 --> 00:00:29,418
+[SPEAKER_02]: But, you know, they can make a last minute call.
+
+11
+00:00:29,458 --> 00:00:30,098
+[SPEAKER_00]: It's a good time.
+
+12
+00:00:30,138 --> 00:00:30,958
+[SPEAKER_02]: It's going to be fun.
+
+13
+00:00:30,978 --> 00:00:32,059
+[SPEAKER_02]: It's a really good time.
+
+14
+00:00:32,079 --> 00:00:33,019
+[SPEAKER_02]: Yeah.
+
+15
+00:00:33,199 --> 00:00:37,621
+[SPEAKER_02]: And also, just wanted to mention, I have a couple of books on Lean Pub.
+
+16
+00:00:38,221 --> 00:00:40,802
+[SPEAKER_02]: There's Atomic Kotlin, and there's on Java 8.
+
+17
+00:00:41,242 --> 00:00:48,885
+[SPEAKER_02]: And there's, I mean, increasingly, perhaps poorly chosen title, but people still get a lot out of it.
+
+18
+00:00:49,961 --> 00:01:13,500
+[SPEAKER_00]: there the on java a on the on java 81 yeah nice cool right and then uh and trisha welcome and you have a book yes i see um i see your atomic kotlin book on lean pub a lot because when i'm checking the top 10 yours is in the top 10 the minds of number 37 that's really gratifying yes i have a book getting to know intelligent idea which is also on lean pub it's on amazon too but you know lean pub is uh
+
+19
+00:01:14,261 --> 00:01:14,661
+[SPEAKER_00]: friendlier.
+
+20
+00:01:15,202 --> 00:01:18,423
+[SPEAKER_00]: And you have a hardcover version.
+
+21
+00:01:18,523 --> 00:01:32,990
+[SPEAKER_00]: So I did it on Lean Pub because it's a nice platform, self-published, and then when I released it, so I released the first edition, me and Helen actually, released the first edition November before last, and then I felt a bit down after it was done.
+
+22
+00:01:33,030 --> 00:01:34,291
+[SPEAKER_00]: I was like, why do I feel down?
+
+23
+00:01:34,311 --> 00:01:36,852
+[SPEAKER_00]: Because I can't hold it in my hands.
+
+24
+00:01:38,193 --> 00:01:43,856
+[SPEAKER_00]: So then I looked into the KDP staff and so the Kindle Direct publishing, so you can
+
+25
+00:01:44,336 --> 00:01:49,459
+[SPEAKER_00]: upload a PDF to Amazon and they'll publish you a paperback in the hardback you want to.
+
+26
+00:01:49,819 --> 00:01:50,180
+[SPEAKER_02]: Oh, nice.
+
+27
+00:01:50,200 --> 00:01:50,380
+[SPEAKER_02]: Yeah.
+
+28
+00:01:50,600 --> 00:01:51,200
+[SPEAKER_02]: Yeah.
+
+29
+00:01:51,420 --> 00:02:05,489
+[SPEAKER_02]: I feel down after a book because I realize the nice clear meaning of my life just suddenly stops, you know, but before it's like, okay, we are existing to create the book and then it goes away.
+
+30
+00:02:06,189 --> 00:02:13,352
+[SPEAKER_02]: But it is nice to have the physical thing on the shelf behind you, which we're looking at Trisha's book behind her on the shelf.
+
+31
+00:02:13,452 --> 00:02:16,754
+[SPEAKER_02]: And Bruce has his books behind him on the shelf.
+
+32
+00:02:16,854 --> 00:02:20,715
+[SPEAKER_00]: I actually paid full price for Head First Java because I helped contribute to Head First Java.
+
+33
+00:02:20,875 --> 00:02:26,518
+[SPEAKER_00]: And I think my author copies weren't due for ages, so I paid full price so I could physically hop the book.
+
+34
+00:02:27,018 --> 00:02:27,858
+[SPEAKER_02]: Yeah, right.
+
+35
+00:02:28,039 --> 00:02:28,579
+[SPEAKER_00]: No, it's good.
+
+36
+00:02:28,759 --> 00:02:30,860
+[SPEAKER_02]: There's definitely something satisfying about that.
+
+37
+00:02:31,795 --> 00:02:40,239
+[SPEAKER_02]: So real quick on that book, it goes into, I'm guessing, IntelliJ and how to use it more effectively and what else?
+
+38
+00:02:40,259 --> 00:02:44,881
+[SPEAKER_00]: Because I was doing advocacy for IntelliJ at JetBrains for like seven years.
+
+39
+00:02:45,342 --> 00:02:52,965
+[SPEAKER_00]: So at the end of that night, I left a couple of years ago, I'm like, what I really want to sort of download everything from my brain into something that other people can use.
+
+40
+00:02:53,425 --> 00:02:55,086
+[SPEAKER_00]: So the book is split into four sections.
+
+41
+00:02:55,146 --> 00:02:56,167
+[SPEAKER_00]: The first section is kind of
+
+42
+00:02:56,947 --> 00:03:04,216
+[SPEAKER_00]: bit fluffy in terms of like how IntelliJ thinks, like where you need to be looking inside the IDE to look for the stuff that you care about.
+
+43
+00:03:04,617 --> 00:03:07,801
+[SPEAKER_00]: The second two sections are all sort of tutorial driven.
+
+44
+00:03:07,821 --> 00:03:14,349
+[SPEAKER_00]: And I use TDD with it as well because I wanted to show this is
+
+45
+00:03:15,330 --> 00:03:21,334
+[SPEAKER_00]: this is how to get the most out of IntelliJ in terms of like it will do code generation and it will make everything compile.
+
+46
+00:03:21,474 --> 00:03:23,916
+[SPEAKER_00]: And so there's two tutorial sections in the middle.
+
+47
+00:03:24,236 --> 00:03:29,720
+[SPEAKER_00]: And then the fourth section is actually like half the book, which is like everything else you need to know about IntelliJ.
+
+48
+00:03:30,320 --> 00:03:38,045
+[SPEAKER_00]: So it goes into depth about like run configurations and about like tips and tricks for debugging and how best to use the testing functionality.
+
+49
+00:03:38,145 --> 00:03:45,210
+[SPEAKER_00]: And I keep thinking about splitting that fourth section out and just having it as a standalone book because it's just got so much useful stuff in there.
+
+50
+00:03:45,511 --> 00:03:45,772
+[SPEAKER_02]: Nice.
+
+51
+00:03:46,634 --> 00:03:46,955
+[SPEAKER_02]: Yes.
+
+52
+00:03:48,159 --> 00:03:50,947
+[SPEAKER_02]: And so you wrote this book even after you left Jet Brands.
+
+53
+00:03:51,735 --> 00:03:57,939
+[SPEAKER_00]: We started it, I was trying to remember, because like history or blurs into one, post pandemic, everything is big.
+
+54
+00:03:58,900 --> 00:04:04,604
+[SPEAKER_00]: So me and Helen started writing it in my, what was to become my last year at JetBrains.
+
+55
+00:04:05,204 --> 00:04:12,869
+[SPEAKER_00]: And then I took a sabbatical and like you were saying about the purpose of my life in the sabbatical, I had two purposes.
+
+56
+00:04:13,449 --> 00:04:18,473
+[SPEAKER_00]: One was to help finish head first Java, which actually came, that came to me
+
+57
+00:04:19,224 --> 00:04:26,431
+[SPEAKER_00]: after I started writing the IntelliJ book, so I knew I couldn't have a full-time job and write two books at the same time.
+
+58
+00:04:27,132 --> 00:04:38,963
+[SPEAKER_00]: So I had like three months of Finnish head first Java and in some ways, I mean, that was a crazy time, but in some ways I sort of miss it because I'd be like, right, get up, get the kids to school, sit down and write the book and keep writing the game.
+
+59
+00:04:39,643 --> 00:04:45,051
+[SPEAKER_00]: And then when that was done, then I went back in and spent another like six months on the IntelliJ IDEA book.
+
+60
+00:04:45,112 --> 00:04:48,236
+[SPEAKER_00]: And I was like, we've got to get this out the door because we spent two years on it now.
+
+61
+00:04:48,336 --> 00:04:51,721
+[SPEAKER_00]: And it was supposed to be an easy thing that we can just quickly.
+
+62
+00:04:54,042 --> 00:04:56,985
+[SPEAKER_02]: I need a sabbatical so we can finish the effect on your programming book.
+
+63
+00:04:57,365 --> 00:05:00,888
+[SPEAKER_02]: Yeah, the siren song of the easy book.
+
+64
+00:05:01,309 --> 00:05:03,131
+[SPEAKER_02]: Yeah, never turns out that way.
+
+65
+00:05:03,151 --> 00:05:04,952
+[SPEAKER_00]: I think I might pick a hard book.
+
+66
+00:05:05,172 --> 00:05:11,919
+[SPEAKER_00]: I was having a conversation with Brian Getz at DevOps about how do you feel about updating Java concurrency, was it modern Java concurrency?
+
+67
+00:05:13,683 --> 00:05:14,804
+[SPEAKER_00]: That's a hard book.
+
+68
+00:05:14,884 --> 00:05:17,185
+[SPEAKER_00]: I don't think that's something you can just get out the door.
+
+69
+00:05:17,885 --> 00:05:24,769
+[SPEAKER_02]: Well, plus all the work that they've done on Lume has changed everything.
+
+70
+00:05:24,809 --> 00:05:29,432
+[SPEAKER_02]: So I think you'd just want to write a new book, which would be really hard.
+
+71
+00:05:29,452 --> 00:05:30,673
+[SPEAKER_02]: And what did he say?
+
+72
+00:05:30,813 --> 00:05:31,253
+[SPEAKER_02]: No way on earth.
+
+73
+00:05:34,895 --> 00:05:40,598
+[SPEAKER_00]: No, I mean, he was, he always said, I was asking him because he always said, when loom comes out, I'll consider it.
+
+74
+00:05:41,938 --> 00:05:54,264
+[SPEAKER_00]: And so then he was sort of saying, I don't know if this is like, you know, conference dinner, non-disclosure, but he was sort of saying the same thing that you just said, you can't really update the book and just like plonk loom on the end of it.
+
+75
+00:05:54,604 --> 00:05:55,244
+[SPEAKER_00]: Yeah.
+
+76
+00:05:55,605 --> 00:05:56,945
+[SPEAKER_02]: So he was considering
+
+77
+00:05:59,301 --> 00:06:02,002
+[SPEAKER_00]: having a part two book.
+
+78
+00:06:02,422 --> 00:06:05,523
+[SPEAKER_00]: So not a second edition, but like modern, modern Java.
+
+79
+00:06:06,003 --> 00:06:06,663
+[SPEAKER_00]: Exactly.
+
+80
+00:06:06,683 --> 00:06:08,584
+[SPEAKER_00]: Like the first book is still valid.
+
+81
+00:06:08,724 --> 00:06:10,344
+[SPEAKER_00]: All of that, none of that goes away.
+
+82
+00:06:10,804 --> 00:06:13,465
+[SPEAKER_00]: It's just that that's not the first thing you're going to think about anymore.
+
+83
+00:06:13,545 --> 00:06:15,906
+[SPEAKER_00]: Like how do we use fork join and
+
+84
+00:06:16,286 --> 00:06:29,956
+[SPEAKER_00]: You're going to use the executors pool and and loom and and things like concurrent data structures and all the stuff that's kind of come in since I think that I think his book was what Java 5, Java 6.
+
+85
+00:06:30,456 --> 00:06:32,098
+[SPEAKER_00]: So there's there's a lot to cover.
+
+86
+00:06:32,138 --> 00:06:32,418
+[SPEAKER_00]: Yeah.
+
+87
+00:06:32,438 --> 00:06:32,558
+[SPEAKER_00]: Yeah.
+
+88
+00:06:34,682 --> 00:06:37,483
+[SPEAKER_02]: Not just a refactor, I would say.
+
+89
+00:06:37,503 --> 00:06:43,746
+[SPEAKER_02]: I mean, if it was me, I would go, new book, you could draw from the material in there, but just make it a new book.
+
+90
+00:06:43,806 --> 00:06:45,666
+[SPEAKER_02]: That's what I would do if you're listening, Brian.
+
+91
+00:06:46,307 --> 00:06:46,987
+[SPEAKER_02]: Just my opinion.
+
+92
+00:06:47,867 --> 00:06:57,371
+[SPEAKER_02]: Well, maybe eventually you'll have a fleet version of your IntelliJ book, and it'd be interesting to see, can you just do a refactor, or is that a full rewrite?
+
+93
+00:06:57,831 --> 00:07:04,319
+[SPEAKER_00]: Yeah, I mean, fleet and some of the other options that I gotta say, I'm an old fashioned programmer.
+
+94
+00:07:04,359 --> 00:07:06,241
+[SPEAKER_00]: I'm like, I spent a long time learning IntelliJ.
+
+95
+00:07:06,381 --> 00:07:08,343
+[SPEAKER_00]: Like, I'm going to keep using IntelliJ.
+
+96
+00:07:08,764 --> 00:07:11,567
+[SPEAKER_02]: Oh, yeah, once you invest a lot of time in something like that.
+
+97
+00:07:12,128 --> 00:07:12,548
+[SPEAKER_00]: Yeah.
+
+98
+00:07:13,189 --> 00:07:13,850
+[SPEAKER_02]: Know your tools.
+
+99
+00:07:13,870 --> 00:07:14,851
+[SPEAKER_02]: It's hard to change them.
+
+100
+00:07:16,352 --> 00:07:33,143
+[SPEAKER_00]: It is, it is hard and Helen is still working at JetBrains and she's more of a sort of broad knowledge person so she's dipping in and out of the IDE so sort of hoping that maybe she might tell me what's different in the IDE's but I'm not going to spend 15 years learning fleet so that I can do a fleet book as well.
+
+101
+00:07:35,049 --> 00:07:45,283
+[SPEAKER_02]: Yeah, well, and I've tried it a couple of times and my initial reaction has always been, oh, well, this isn't, I mean,
+
+102
+00:07:46,331 --> 00:07:48,633
+[SPEAKER_02]: This isn't as responsive as VS code yet.
+
+103
+00:07:48,813 --> 00:07:55,618
+[SPEAKER_02]: So, I'm not, which I think is what they're trying to compete with, right?
+
+104
+00:07:55,898 --> 00:07:57,539
+[SPEAKER_00]: Pretty sure.
+
+105
+00:07:57,779 --> 00:08:00,421
+[SPEAKER_00]: The thought that I have when I use fleet is, oh, this isn't for me.
+
+106
+00:08:01,081 --> 00:08:05,164
+[SPEAKER_00]: Not because it's bad, but it's just, I'm not the sort of programmer they're targeting.
+
+107
+00:08:05,504 --> 00:08:08,386
+[SPEAKER_02]: And I think that's how I feel when I use VS code.
+
+108
+00:08:08,607 --> 00:08:10,308
+[SPEAKER_02]: It's like, yeah, it's similar.
+
+109
+00:08:11,201 --> 00:08:21,574
+[SPEAKER_02]: I'm, yeah, I don't know, I'm still, I mean, I use both VS Code and IntelliJ, but more, I don't know, most of the time, it's like, it's the little things.
+
+110
+00:08:21,754 --> 00:08:23,196
+[SPEAKER_02]: I find it's those little hurdles.
+
+111
+00:08:23,617 --> 00:08:26,781
+[SPEAKER_02]: And this is, you know, developer productivity is one of your things.
+
+112
+00:08:26,821 --> 00:08:29,905
+[SPEAKER_02]: So we can, we can work into that.
+
+113
+00:08:29,985 --> 00:08:30,105
+[SPEAKER_02]: But
+
+114
+00:08:30,509 --> 00:08:40,304
+[SPEAKER_02]: Those little hurdles are what get me and starting up IntelliJ and getting into that mindset versus just bringing up VS Code.
+
+115
+00:08:40,804 --> 00:08:43,989
+[SPEAKER_02]: Most of the time I'll just use VS Code and then I learn it.
+
+116
+00:08:44,330 --> 00:08:46,313
+[SPEAKER_02]: I learned more and more about it in the process.
+
+117
+00:08:46,833 --> 00:08:47,454
+[SPEAKER_02]: but it's that.
+
+118
+00:08:47,934 --> 00:08:51,797
+[SPEAKER_02]: It's almost just the startup time that gets me.
+
+119
+00:08:52,017 --> 00:08:53,318
+[SPEAKER_02]: And also the simplicity.
+
+120
+00:08:53,478 --> 00:08:56,401
+[SPEAKER_02]: It hasn't got this huge surface area.
+
+121
+00:08:57,702 --> 00:09:00,284
+[SPEAKER_02]: And I've discovered this in a bunch of things.
+
+122
+00:09:01,525 --> 00:09:03,286
+[SPEAKER_02]: It's the little hurdles that get you.
+
+123
+00:09:04,167 --> 00:09:13,234
+[SPEAKER_02]: And maybe we can move into the idea of test-driven development and testing in general, because that's a big thing for you.
+
+124
+00:09:13,254 --> 00:09:14,114
+[SPEAKER_02]: Because I just
+
+125
+00:09:15,155 --> 00:09:27,466
+[SPEAKER_02]: Recently in the last few days came across an article in my newsfeed where the guy was talking about, I don't remember, it was basically the things that didn't work in test-driven development.
+
+126
+00:09:27,526 --> 00:09:33,911
+[SPEAKER_02]: Because a lot of times, TDD is something that people will go, oh, well, you have to use TDD everywhere.
+
+127
+00:09:34,351 --> 00:09:42,158
+[SPEAKER_02]: And he's pointing out that, well, a lot of times, if you're doing exploratory programming, you don't know.
+
+128
+00:09:43,160 --> 00:09:51,684
+[SPEAKER_02]: If you're doing, if you're just trying to solve a specific problem, the test is really, is the problem solved or not?
+
+129
+00:09:51,884 --> 00:09:56,947
+[SPEAKER_02]: And so you don't necessarily build a whole bunch of tests and you certainly don't do the test first thing.
+
+130
+00:09:57,347 --> 00:10:03,330
+[SPEAKER_02]: And it's like, there's this kind of narrow area where you go, oh, we have the complete specification.
+
+131
+00:10:03,890 --> 00:10:12,474
+[SPEAKER_02]: We can start by writing the tests for that specification that fail and then, you know, but that's like not that big of a,
+
+132
+00:10:13,510 --> 00:10:19,357
+[SPEAKER_02]: It's not holistic of all the different things that you're doing in the activity of programming.
+
+133
+00:10:19,377 --> 00:10:23,822
+[SPEAKER_02]: Yeah, because so much of the time you don't have that full specification.
+
+134
+00:10:23,922 --> 00:10:24,183
+[SPEAKER_02]: Yeah.
+
+135
+00:10:24,743 --> 00:10:26,906
+[SPEAKER_02]: And if you do, sure, I can see why you'd use TD.
+
+136
+00:10:26,926 --> 00:10:33,353
+[SPEAKER_02]: Wouldn't the counter argument to that be that, well, you should probably go build that specification before you start writing code?
+
+137
+00:10:34,370 --> 00:10:43,915
+[SPEAKER_02]: Um, I, I guess, but it, but, but if it's, you know, if I'm just, well, certainly if I'm exploring, I don't know what that specification would look like.
+
+138
+00:10:43,935 --> 00:10:49,237
+[SPEAKER_02]: I'm just trying to figure out, is it possible to do this thing or do I want to do this thing or whatever?
+
+139
+00:10:49,457 --> 00:10:50,498
+[SPEAKER_02]: So what do you think about this?
+
+140
+00:10:50,858 --> 00:10:53,379
+[SPEAKER_00]: I mean, everything's about gray areas, isn't it?
+
+141
+00:10:53,459 --> 00:10:53,659
+[SPEAKER_00]: Right.
+
+142
+00:10:53,819 --> 00:10:56,280
+[SPEAKER_00]: And I'm a big fan of TDD.
+
+143
+00:10:56,821 --> 00:11:01,643
+[SPEAKER_00]: Um, I tend to write my tests first, even when I, so,
+
+144
+00:11:02,261 --> 00:11:12,446
+[SPEAKER_00]: When I used to interview people for a position where we had to have TDD as part of the job, people would say, yeah, I write my test first, except when I don't know what I'm doing.
+
+145
+00:11:12,566 --> 00:11:13,727
+[SPEAKER_00]: And then I write the code first.
+
+146
+00:11:13,787 --> 00:11:18,909
+[SPEAKER_00]: And I'm a bit like, yeah, but if you don't know what you're doing, why are you writing the production code?
+
+147
+00:11:18,929 --> 00:11:23,572
+[SPEAKER_00]: Part of the thing about the test is to write down the things that you don't know.
+
+148
+00:11:25,753 --> 00:11:29,614
+[SPEAKER_00]: Even if it's just the title of the test, what should it do if the connection fails?
+
+149
+00:11:29,674 --> 00:11:32,275
+[SPEAKER_00]: What should it do if the user gives you some garbage input?
+
+150
+00:11:32,635 --> 00:11:37,057
+[SPEAKER_00]: What should it do if, I don't know, if you don't know what you're doing?
+
+151
+00:11:37,117 --> 00:11:46,160
+[SPEAKER_00]: So I quite often use the test to make a note of all those things that I don't know, and then kind of use that to drive the solution.
+
+152
+00:11:47,200 --> 00:11:55,343
+[SPEAKER_00]: But it does depend a little bit on the application you're working on and how it's architectured, architected, and also what sorts of tests you're writing.
+
+153
+00:11:55,423 --> 00:11:59,305
+[SPEAKER_00]: So when I worked at Elmax, we wrote a whole bunch of automated acceptance tests.
+
+154
+00:11:59,325 --> 00:12:01,466
+[SPEAKER_00]: So you can be quite high level in terms of
+
+155
+00:12:02,026 --> 00:12:19,025
+[SPEAKER_00]: the behavior the user expects and we wrote the unit test too when you're doing the unit test you're going to be more precise about like it is definitely going to do these things when you do these sorts of things and on the acceptance test level you can write these automated tests which are like well you know it should definitely give me some sort of error if I do something stupid.
+
+156
+00:12:20,046 --> 00:12:27,775
+[SPEAKER_00]: But if you don't have those different levels of testing in a unit test where your unit tests are like one test, one class is very difficult to write that general.
+
+157
+00:12:27,835 --> 00:12:33,161
+[SPEAKER_00]: Well, I want it to do something definitely wrong when this weird stuff happens.
+
+158
+00:12:33,681 --> 00:12:33,922
+[SPEAKER_00]: Yeah.
+
+159
+00:12:34,302 --> 00:12:34,522
+[SPEAKER_02]: Yeah.
+
+160
+00:12:35,283 --> 00:12:35,503
+[SPEAKER_02]: Yeah.
+
+161
+00:12:35,523 --> 00:12:37,746
+[SPEAKER_02]: So there's like a spectrum with testing where I
+
+162
+00:12:40,552 --> 00:13:01,054
+[SPEAKER_02]: don't often write a lot of unit tests because a lot of the stuff that I'm building is really about integration and it's the integration points that are brittle and can fail or be flaky and so those are the places where I often start is like like what how should the integration work and so it's maybe a little
+
+163
+00:13:01,514 --> 00:13:07,165
+[SPEAKER_02]: unfortunate in some cases that I can't break that down into a unit test that has much value.
+
+164
+00:13:07,545 --> 00:13:11,212
+[SPEAKER_02]: But really what I care about is like, is this integration working as I expect it to?
+
+165
+00:13:12,520 --> 00:13:23,347
+[SPEAKER_02]: But then that makes my tests slower, other integration tests and the system that I'm relying on maybe needs a bunch of setup in order to have a valid test.
+
+166
+00:13:25,088 --> 00:13:27,630
+[SPEAKER_00]: My husband writes a lot of Android stuff.
+
+167
+00:13:28,991 --> 00:13:33,493
+[SPEAKER_00]: He and I both worked at the same place in London where we worked with Dave Farley with these acceptance tests and stuff.
+
+168
+00:13:34,174 --> 00:13:37,416
+[SPEAKER_00]: He wants to test drive a lot of stuff the same way that we did there.
+
+169
+00:13:38,036 --> 00:13:46,324
+[SPEAKER_00]: But he does find it, it's a very different beast when you're working with Android because you can't just fire up a quick unit test that does the thing that you want.
+
+170
+00:13:46,904 --> 00:13:54,171
+[SPEAKER_00]: But what he has found is that he often writes these integration tests or emulator level tests because
+
+171
+00:13:54,833 --> 00:13:56,954
+[SPEAKER_00]: You can think that way in terms of the overall flow.
+
+172
+00:13:57,254 --> 00:14:02,477
+[SPEAKER_00]: But then afterwards, he will sometimes refact those down to unit tests and be like, oh, you know what?
+
+173
+00:14:02,537 --> 00:14:03,837
+[SPEAKER_00]: I don't need the emulator for this.
+
+174
+00:14:03,877 --> 00:14:06,959
+[SPEAKER_00]: I'm actually only testing this part of the view or whatever.
+
+175
+00:14:07,399 --> 00:14:12,001
+[SPEAKER_02]: But again, I guess that's one way that I have to do it is I'll start with the integration test.
+
+176
+00:14:12,321 --> 00:14:21,586
+[SPEAKER_02]: And then I realize in trying to fulfill the integration test that, oh, there's actually a few places that I can break down into being unit tests.
+
+177
+00:14:21,666 --> 00:14:23,827
+[SPEAKER_02]: But I guess I'm almost in my TDD
+
+178
+00:14:24,907 --> 00:14:32,193
+[SPEAKER_02]: And a lot of stuff I build, I'm an integration test first kind of approach and then identifying the places that could be unit test.
+
+179
+00:14:32,293 --> 00:14:35,856
+[SPEAKER_02]: Yeah, because it seems like that's not driven.
+
+180
+00:14:36,016 --> 00:14:44,222
+[SPEAKER_02]: I guess that's the problem that I have when people are very rigid about, oh, you always have to write the test before you write any code.
+
+181
+00:14:44,743 --> 00:14:46,824
+[SPEAKER_02]: And I have discovered that
+
+182
+00:14:48,746 --> 00:15:04,340
+[SPEAKER_02]: When you're you know at some point well it's almost like when you're writing a book you write an example and then you start writing the pros and it changes or at least in my experience it often changes the example you go oh wait you know you're sort of rubber ducking.
+
+183
+00:15:04,861 --> 00:15:06,362
+[SPEAKER_02]: the example down on the thing.
+
+184
+00:15:06,502 --> 00:15:09,564
+[SPEAKER_02]: And so for me, testing will often do that.
+
+185
+00:15:09,664 --> 00:15:15,627
+[SPEAKER_02]: And you go like, even just to make something testable, you go, Oh yeah, that would change the design of it.
+
+186
+00:15:16,287 --> 00:15:18,289
+[SPEAKER_02]: But that isn't upfront.
+
+187
+00:15:18,449 --> 00:15:26,653
+[SPEAKER_02]: And I think maybe my problem isn't, it's the, the driven part, the, Oh, you have to get this test first.
+
+188
+00:15:26,893 --> 00:15:27,194
+[SPEAKER_01]: Yeah.
+
+189
+00:15:27,854 --> 00:15:31,356
+[SPEAKER_02]: And then fill in the, you know, connect the dots afterwards.
+
+190
+00:15:31,752 --> 00:15:43,057
+[SPEAKER_00]: I think for me, the key thing is to be able to switch between the two, like rapidly, because you can't just write 300 tests with no implementation and then write the implementation and expect everything to pass.
+
+191
+00:15:43,258 --> 00:15:50,621
+[SPEAKER_00]: Like whether you write the implementation and go, oh, now I know what the test is supposed to look like, or whether it's about going backwards and forwards.
+
+192
+00:15:51,121 --> 00:15:57,124
+[SPEAKER_00]: Because the other thing is that one of the, I went from this place I was working with Dave Farley, I started working at MongoDB.
+
+193
+00:15:57,464 --> 00:15:59,846
+[SPEAKER_00]: So I was trying to do test-driven stuff there.
+
+194
+00:16:00,868 --> 00:16:09,790
+[SPEAKER_00]: The pattern that they had been using is that, because we were working on the Java driver, so we had a specification on how the Java driver was going to talk to the database.
+
+195
+00:16:10,250 --> 00:16:25,553
+[SPEAKER_00]: So a lot of the design was sort of driven from the database, like upwards, if you like, which kind of makes sense, because we have a specification on how to talk to the database, and so you're sort of exposing that to the end user, and the end user is a Java developer who's trying to talk to MongoDB.
+
+196
+00:16:26,193 --> 00:16:29,614
+[SPEAKER_00]: But when you start thinking test first, you start thinking from the outside in,
+
+197
+00:16:30,034 --> 00:16:35,136
+[SPEAKER_00]: you start to realize that the API makes no sense when you're exposing what the database cares about.
+
+198
+00:16:35,656 --> 00:16:39,658
+[SPEAKER_00]: And when I'm a developer, I don't really care about whatever it is the database cares about.
+
+199
+00:16:39,758 --> 00:16:45,681
+[SPEAKER_00]: I want an insert statement, which is going to take the thing I'm inserting and maybe some criteria.
+
+200
+00:16:46,101 --> 00:16:49,683
+[SPEAKER_00]: And in Java syntax, I would expect it to look like this.
+
+201
+00:16:50,323 --> 00:16:52,424
+[SPEAKER_00]: And so I sometimes find test driven development.
+
+202
+00:16:52,864 --> 00:16:57,346
+[SPEAKER_00]: That's why I learned that test driven development is very good for API design, because then you're starting to think,
+
+203
+00:16:57,986 --> 00:16:59,886
+[SPEAKER_00]: From the outside, what makes sense?
+
+204
+00:16:59,987 --> 00:17:01,167
+[SPEAKER_00]: What shape should it be?
+
+205
+00:17:01,627 --> 00:17:05,008
+[SPEAKER_00]: Instead of doing what we often do as developers and go, here's what you've got.
+
+206
+00:17:05,088 --> 00:17:09,208
+[SPEAKER_00]: Just do your best with this.
+
+207
+00:17:09,288 --> 00:17:20,351
+[SPEAKER_02]: Yeah, this is what makes sense based on the system that I'm abstracting over when the other way is to think, okay, this is what the developer actually wants from their API.
+
+208
+00:17:21,071 --> 00:17:26,472
+[SPEAKER_02]: Right, and I think the biggest thing that I've come away with is when you
+
+209
+00:17:27,452 --> 00:17:32,814
+[SPEAKER_02]: do the testing and you go, oh, wait, this doesn't make sense.
+
+210
+00:17:33,094 --> 00:17:35,595
+[SPEAKER_02]: I need to change the API to make it testable.
+
+211
+00:17:35,795 --> 00:17:40,836
+[SPEAKER_02]: It often or almost always improves the API in that process.
+
+212
+00:17:41,236 --> 00:17:45,998
+[SPEAKER_02]: So that hand in hand approach is just really essential, I think.
+
+213
+00:17:46,420 --> 00:17:55,427
+[SPEAKER_00]: Yeah, I think as long as you're doing both at the same time and evolving in both directions, because if you if you write your production code and then don't write any test, well, A, that's bad.
+
+214
+00:17:55,827 --> 00:17:59,289
+[SPEAKER_00]: And B, when you come to it six months later and go, Oh, it doesn't really work.
+
+215
+00:17:59,349 --> 00:18:00,370
+[SPEAKER_00]: And I need some tests.
+
+216
+00:18:01,191 --> 00:18:08,956
+[SPEAKER_00]: And you're too scared to touch the production code to make it testable because you can't remember what it does or why it works that way or which assumptions you made.
+
+217
+00:18:09,136 --> 00:18:11,318
+[SPEAKER_00]: And it's just difficult to do it afterwards.
+
+218
+00:18:12,659 --> 00:18:15,181
+[SPEAKER_02]: Yeah, I think there's an important point that you brought up around how
+
+219
+00:18:16,220 --> 00:18:28,472
+[SPEAKER_02]: I think TDD is in some ways presented as this idea that you mentioned of like write your tests and then switch over to your production code and then only in production code get all of your tests to pass.
+
+220
+00:18:28,892 --> 00:18:39,042
+[SPEAKER_02]: And I think in reality, you've got this inner loop where you're going back and forth between your test code and your production code and you're modifying them both at some point
+
+221
+00:18:39,702 --> 00:18:54,697
+[SPEAKER_02]: And that is, I think, not generally the way that TDD is presented as the way that you should do it, but the reality to be, I think, productive is that you kind of do have to be going back and forth, adapting things.
+
+222
+00:18:56,018 --> 00:19:01,123
+[SPEAKER_02]: I feel like when Luciano introduced it, that's the way he did it.
+
+223
+00:19:01,163 --> 00:19:02,565
+[SPEAKER_02]: He goes, okay, what do you want to do?
+
+224
+00:19:03,049 --> 00:19:04,589
+[SPEAKER_02]: All right, first write the test for that.
+
+225
+00:19:04,789 --> 00:19:06,010
+[SPEAKER_02]: Okay, now implement the code.
+
+226
+00:19:06,070 --> 00:19:08,410
+[SPEAKER_02]: And it was just one thing at a time.
+
+227
+00:19:08,690 --> 00:19:14,531
+[SPEAKER_02]: And that did make more sense to me, but often I go, well, I'm not sure what I wanna do at this point.
+
+228
+00:19:14,671 --> 00:19:18,812
+[SPEAKER_02]: I don't know what's possible or whatever, but that's just me.
+
+229
+00:19:19,132 --> 00:19:29,274
+[SPEAKER_02]: There's, I think a third piece to this that I often do is think about the data model and the functions around that data model is almost like a separate thing.
+
+230
+00:19:29,334 --> 00:19:31,034
+[SPEAKER_02]: Like I've got the functionality
+
+231
+00:19:31,434 --> 00:19:35,137
+[SPEAKER_02]: but then I've got the data model and functions, and then I've got the tests.
+
+232
+00:19:35,757 --> 00:19:44,644
+[SPEAKER_02]: And a lot of times I start with my data model first because to even write a useful test, I have to have the actual objects defined.
+
+233
+00:19:45,064 --> 00:19:55,772
+[SPEAKER_02]: But then when I define like a function, I, in Kotlin used to do or in Scala use triple question mark as being like, all right, my test is going to blow up when I actually try to call this function.
+
+234
+00:19:56,465 --> 00:20:05,071
+[SPEAKER_02]: And that gives me the name that I can reference, but then allows me to write the test against that function that is not yet implemented.
+
+235
+00:20:05,091 --> 00:20:13,057
+[SPEAKER_02]: I guess in Java you could throw not implemented exception or something as well, but the triple question mark should end scholar to do and Cotton's pretty nice for doing that.
+
+236
+00:20:13,838 --> 00:20:22,686
+[SPEAKER_02]: So I kind of like build out the data model and the functions, but then there's that like circular loop between all three of those different pieces to actually kind of get to where I want to go.
+
+237
+00:20:22,847 --> 00:20:23,888
+[SPEAKER_02]: Right, right.
+
+238
+00:20:24,308 --> 00:20:27,291
+[SPEAKER_02]: Um, is this a segue that we could go into?
+
+239
+00:20:27,331 --> 00:20:29,273
+[SPEAKER_02]: I want to talk about, um, flaky tests.
+
+240
+00:20:29,513 --> 00:20:30,494
+[SPEAKER_02]: Oh, flaky tests, right.
+
+241
+00:20:30,554 --> 00:20:31,355
+[SPEAKER_00]: Cause that's a thing.
+
+242
+00:20:31,375 --> 00:20:31,735
+[SPEAKER_00]: Okay.
+
+243
+00:20:31,755 --> 00:20:32,836
+[SPEAKER_00]: Tell us about flaky tests.
+
+244
+00:20:32,917 --> 00:20:33,117
+[SPEAKER_02]: Yeah.
+
+245
+00:20:33,137 --> 00:20:33,417
+[SPEAKER_02]: What's, uh,
+
+246
+00:20:37,801 --> 00:20:47,387
+[SPEAKER_02]: I mean everyone has flaky tests like if you're doing any kind of like especially integrations is only like would you only usually get a flaky test on an integration test or is this happen.
+
+247
+00:20:48,049 --> 00:20:56,833
+[SPEAKER_00]: I mean, I think you probably, you're going to find flaky tests more frequently on, um, when you've got independent systems or messaging or integrations or like, yes, anything.
+
+248
+00:20:56,853 --> 00:21:01,756
+[SPEAKER_02]: I mean, you can define flaky tests.
+
+249
+00:21:02,256 --> 00:21:12,581
+[SPEAKER_00]: The easiest definition of a flaky test is you run a test and it fails and you run it straight afterwards and the same hardware, the same JVM, the same everything else and it passes.
+
+250
+00:21:13,109 --> 00:21:15,050
+[SPEAKER_02]: So it's a non-pure functional test.
+
+251
+00:21:15,070 --> 00:21:18,633
+[SPEAKER_00]: It's a non-deterministic result.
+
+252
+00:21:19,233 --> 00:21:27,960
+[SPEAKER_00]: And so, you know, and obviously there's different variations in that it mostly passes, but every now and again it fails versus, you know, pass fails, pass fails, pass fails.
+
+253
+00:21:28,000 --> 00:21:35,385
+[SPEAKER_00]: But ultimately, if you can run it under the same circumstances and sometimes it passes and sometimes it fails, it's flaky.
+
+254
+00:21:36,243 --> 00:21:37,324
+[SPEAKER_00]: Yeah.
+
+255
+00:21:37,344 --> 00:21:43,729
+[SPEAKER_02]: These are challenging because you then get your CI system that is flaky.
+
+256
+00:21:44,150 --> 00:21:53,657
+[SPEAKER_02]: Like the flakiness then propagates to cause you a lot of challenges in keeping that main branch green or whatever.
+
+257
+00:21:53,677 --> 00:21:55,839
+[SPEAKER_02]: And how do you solve this problem?
+
+258
+00:21:58,419 --> 00:21:59,160
+[SPEAKER_00]: Yes, I come to that.
+
+259
+00:21:59,480 --> 00:22:10,553
+[SPEAKER_00]: My main problem with flaky tests is that even if you have one flaky test in your whole test suite, you stop trusting your tests because you're like, you already know, sometimes it passes.
+
+260
+00:22:11,294 --> 00:22:17,141
+[SPEAKER_00]: And so you start rerunning things, whether you rerun it like locally or whether you get your CI to rerun things.
+
+261
+00:22:17,489 --> 00:22:20,871
+[SPEAKER_00]: this becomes inefficient, use more resources, ultimately more money.
+
+262
+00:22:20,891 --> 00:22:26,494
+[SPEAKER_02]: And what does it mean to pass a test, your test when one of them is flaky?
+
+263
+00:22:26,674 --> 00:22:27,494
+[SPEAKER_02]: What does that mean?
+
+264
+00:22:27,814 --> 00:22:28,735
+[SPEAKER_00]: You can't trust it.
+
+265
+00:22:28,815 --> 00:22:39,920
+[SPEAKER_00]: You've invested all this time writing tests, whether you did TDD or whatever you did, you've written tests, you have tests, but they are not doing the job they're supposed to do because you don't have the confidence that
+
+266
+00:22:41,181 --> 00:22:54,067
+[SPEAKER_00]: The tests are doing what they say they're doing and you don't have the confidence that your production code is working properly because if your test fails sometimes you're like Is it the code?
+
+267
+00:22:54,208 --> 00:22:56,128
+[SPEAKER_00]: Is it my CI infrastructure?
+
+268
+00:22:56,269 --> 00:22:57,629
+[SPEAKER_00]: Like what what is it?
+
+269
+00:22:57,749 --> 00:23:00,411
+[SPEAKER_02]: And if I can't trust my tests, why write them?
+
+270
+00:23:01,462 --> 00:23:06,547
+[SPEAKER_00]: Well, so here's the thing is that I have an argument, my first argument for what to do about flaky tests is delete them.
+
+271
+00:23:07,167 --> 00:23:13,253
+[SPEAKER_00]: Just like just delete it because I really do think that they cause more pain than any kind of
+
+272
+00:23:14,099 --> 00:23:15,520
+[SPEAKER_00]: security you get from that test.
+
+273
+00:23:15,540 --> 00:23:21,984
+[SPEAKER_00]: Because every time it passes, you're still not kind of tricked into believing that it actually works.
+
+274
+00:23:22,284 --> 00:23:22,524
+[SPEAKER_00]: Right.
+
+275
+00:23:23,045 --> 00:23:24,045
+[SPEAKER_00]: And so I think they're toxic.
+
+276
+00:23:24,085 --> 00:23:30,549
+[SPEAKER_00]: I think that they lead to this lack of faith in your test suite and not to mention the cost, the time cost and all the rest of it.
+
+277
+00:23:31,029 --> 00:23:32,490
+[SPEAKER_00]: So my first answer would be delete them.
+
+278
+00:23:32,851 --> 00:23:34,532
+[SPEAKER_00]: But obviously you should try and fix them.
+
+279
+00:23:34,572 --> 00:23:35,973
+[SPEAKER_00]: And there's a bunch of different ways to fix them.
+
+280
+00:23:36,013 --> 00:23:37,574
+[SPEAKER_00]: So Dave Farley has a good video on this.
+
+281
+00:23:37,854 --> 00:23:40,295
+[SPEAKER_00]: He talks about the five causes of intermittent tests.
+
+282
+00:23:41,976 --> 00:23:47,839
+[SPEAKER_00]: And so there's things like infrastructure changes that can happen underneath you, especially if it's a CI environment.
+
+283
+00:23:47,859 --> 00:23:49,520
+[SPEAKER_00]: It talks about things like versioning.
+
+284
+00:23:49,600 --> 00:23:54,242
+[SPEAKER_00]: So you run it in one environment, and it's fine.
+
+285
+00:23:54,282 --> 00:23:55,783
+[SPEAKER_00]: But in another environment, it's not fine.
+
+286
+00:23:55,803 --> 00:24:04,527
+[SPEAKER_00]: But you haven't versioned in your code, like I expected to be using this service, this version of the service, or I expected to be using this version of Java or whatever.
+
+287
+00:24:04,587 --> 00:24:09,809
+[SPEAKER_00]: So obviously from Dave's continuous delivery point of view, his whole thing is like everything should be codified.
+
+288
+00:24:09,829 --> 00:24:10,790
+[SPEAKER_00]: You can't just rely on
+
+289
+00:24:11,170 --> 00:24:32,783
+[SPEAKER_00]: it's probably there and it's probably what i expect so that's that's another thing and then of course there's a lot of things about asynchronousness and messaging and weights and timeouts and race conditions and that kind of thing when i went with david at lmax there was a we had a bunch of flaky tests they were mostly timeout based stuff because we were using asynchronous messaging
+
+290
+00:24:33,403 --> 00:24:38,765
+[SPEAKER_00]: but it turns out that one subset of failing tests were failing for production reasons.
+
+291
+00:24:38,806 --> 00:24:53,352
+[SPEAKER_00]: There was actually a race condition in the production code and the only way we found it is because we hammered it with a bunch of acceptance tests every 40 minutes and that would bring in this race condition in the subset of the tests.
+
+292
+00:24:54,401 --> 00:25:05,272
+[SPEAKER_02]: The flaky test could be indicating to you that you've got a deeper problem, like a race condition that only surfaces given some particular state of the system.
+
+293
+00:25:05,292 --> 00:25:08,356
+[SPEAKER_02]: When you're using concurrency with flaky tests.
+
+294
+00:25:08,716 --> 00:25:14,842
+[SPEAKER_02]: So would it make sense to have a separate suite of flaky tests?
+
+295
+00:25:15,686 --> 00:25:24,290
+[SPEAKER_02]: So you have your, your tests that always should work and then your flaky tests that you run when you're looking for deeper problems.
+
+296
+00:25:24,931 --> 00:25:30,654
+[SPEAKER_00]: So, so one of the approaches I was talking, so one of them, right, I've got so many things to say.
+
+297
+00:25:31,394 --> 00:25:36,697
+[SPEAKER_00]: Um, working at Gradle, we have a product called dev velocity, which does identify your flaky tests for you.
+
+298
+00:25:36,817 --> 00:25:38,417
+[SPEAKER_00]: So when a test fails, it reruns it.
+
+299
+00:25:38,558 --> 00:25:41,239
+[SPEAKER_00]: And then if it's, if it fails and passes in the same,
+
+300
+00:25:41,798 --> 00:25:43,339
+[SPEAKER_00]: set, then it flags it as flaky.
+
+301
+00:25:43,399 --> 00:25:45,519
+[SPEAKER_00]: So you get to see your flaky test.
+
+302
+00:25:45,539 --> 00:25:46,320
+[SPEAKER_00]: So that's a great thing.
+
+303
+00:25:46,640 --> 00:25:48,260
+[SPEAKER_00]: Visibility of a flaky test is a good thing.
+
+304
+00:25:49,021 --> 00:25:53,302
+[SPEAKER_00]: So then I was discussing with my fellow developer advocates, like what do we do about flaky tests?
+
+305
+00:25:53,783 --> 00:25:54,263
+[SPEAKER_00]: Do we just...
+
+306
+00:25:55,438 --> 00:26:02,021
+[SPEAKER_00]: From a developer advocacy point of view is our message, you have to fix your flaky tests because they're noise and all the rest of it.
+
+307
+00:26:02,442 --> 00:26:06,103
+[SPEAKER_00]: And we realized, of course, there is a subset of tests which will, by definition, be flaky.
+
+308
+00:26:06,504 --> 00:26:07,364
+[SPEAKER_00]: Things like, well, flaky.
+
+309
+00:26:07,844 --> 00:26:10,506
+[SPEAKER_00]: Not always give you the result that you expect.
+
+310
+00:26:10,666 --> 00:26:20,771
+[SPEAKER_00]: So for example, one set of tests that we were running at this place were effectively smoke tests against third party libraries and third party systems and things.
+
+311
+00:26:21,511 --> 00:26:22,972
+[SPEAKER_00]: And they can fall into different categories.
+
+312
+00:26:23,112 --> 00:26:24,874
+[SPEAKER_00]: One is, you know, their test system is down.
+
+313
+00:26:25,034 --> 00:26:26,495
+[SPEAKER_00]: So like the tests are going to fail.
+
+314
+00:26:26,875 --> 00:26:28,356
+[SPEAKER_00]: Another is they've changed the version.
+
+315
+00:26:28,597 --> 00:26:33,560
+[SPEAKER_00]: You kind of want your tests to fail if they change something and your tests expect one thing and get something else back.
+
+316
+00:26:34,021 --> 00:26:38,424
+[SPEAKER_00]: And another is, you know, just integration is a point of potential failure.
+
+317
+00:26:38,464 --> 00:26:40,966
+[SPEAKER_00]: You can't, you can't time out.
+
+318
+00:26:41,286 --> 00:26:42,447
+[SPEAKER_00]: Your time out can't be infinite.
+
+319
+00:26:42,587 --> 00:26:44,069
+[SPEAKER_00]: Sometimes stuff goes down.
+
+320
+00:26:44,169 --> 00:26:45,750
+[SPEAKER_00]: So yes, anything which
+
+321
+00:26:46,618 --> 00:26:54,780
+[SPEAKER_00]: The test is valuable, but there is a non-zero chance that the test might fail for probably infrastructural reasons.
+
+322
+00:26:55,321 --> 00:27:04,143
+[SPEAKER_00]: Then you want to run those probably separately so that they're not part of your, whatever you call your, you know, your acceptance testing commit bill, whatever it is.
+
+323
+00:27:05,043 --> 00:27:13,606
+[SPEAKER_00]: So then you can see, so you should have a set of tests, your unit tests and even end to end tests, which you can rely on so that the whole thing can go green.
+
+324
+00:27:13,986 --> 00:27:15,386
+[SPEAKER_00]: like all the time in theory.
+
+325
+00:27:15,767 --> 00:27:21,988
+[SPEAKER_00]: And then anything which is like, well, we just want to make sure it's probably not really stupid can be a little bit off to one side.
+
+326
+00:27:22,148 --> 00:27:22,728
+[SPEAKER_00]: So that's one side.
+
+327
+00:27:22,748 --> 00:27:30,770
+[SPEAKER_02]: It's part of the underlying challenge here that we typically have a red-green approach to test passing.
+
+328
+00:27:31,450 --> 00:27:41,293
+[SPEAKER_02]: And there are cases where maybe it would be better to think about it in terms of a risk level or a
+
+329
+00:27:41,673 --> 00:27:51,648
+[SPEAKER_02]: like probability level or like like hey you know we're a 98% confidence that like the system is is good and you know that.
+
+330
+00:27:52,572 --> 00:27:58,095
+[SPEAKER_02]: rather than always saying you're either at 0% or 100% is kind of the red-green approach.
+
+331
+00:27:58,695 --> 00:28:03,617
+[SPEAKER_00]: You're probably right because if you think about performance tests, there's usually some hard line on a performance test.
+
+332
+00:28:03,657 --> 00:28:08,680
+[SPEAKER_00]: So we had performance requirements of a latency of under 10 milliseconds or whatever it was.
+
+333
+00:28:09,080 --> 00:28:14,043
+[SPEAKER_00]: So you want your performance test to be under that, but it's not.
+
+334
+00:28:15,163 --> 00:28:19,666
+[SPEAKER_00]: You can still argue it's red and green, but it is on a scale.
+
+335
+00:28:19,766 --> 00:28:26,489
+[SPEAKER_00]: So like you want to be able to see when you're getting to like nine milliseconds, you should probably do something about that and bring it back down again.
+
+336
+00:28:26,909 --> 00:28:29,811
+[SPEAKER_00]: So it's not just a case of it's fine or it's not fine.
+
+337
+00:28:29,851 --> 00:28:35,914
+[SPEAKER_00]: It's like it's fine or it's not, it's kind of fine or it's really going to get to be not fine quite soon.
+
+338
+00:28:35,934 --> 00:28:39,836
+[SPEAKER_00]: And I think that's, I mean, we live in a world where there's, it's not red and green.
+
+339
+00:28:39,876 --> 00:28:42,798
+[SPEAKER_00]: It's not black and white, but everything's on a bit of a scale.
+
+340
+00:28:42,838 --> 00:28:44,199
+[SPEAKER_00]: You know, it depends, you know?
+
+341
+00:28:44,679 --> 00:28:45,940
+[SPEAKER_02]: Yeah.
+
+342
+00:28:47,041 --> 00:28:50,704
+[SPEAKER_02]: We don't ship perfect software to production.
+
+343
+00:28:51,364 --> 00:28:53,446
+[SPEAKER_02]: We know that our software is not perfect.
+
+344
+00:28:54,066 --> 00:28:57,049
+[SPEAKER_02]: What level of imperfection are we okay with and still shipping?
+
+345
+00:28:58,149 --> 00:29:10,319
+[SPEAKER_02]: Maybe a future improvement to CI systems would be able to say, how much flakiness do you want to allow to consider this green or able to be merged?
+
+346
+00:29:12,640 --> 00:29:18,225
+[SPEAKER_00]: You should also be able to flag like I expect this to be flaky sometimes versus I did not expect this to be flaky.
+
+347
+00:29:18,725 --> 00:29:25,310
+[SPEAKER_00]: I don't expect when I run into my services under my control for them to not speak to each other or whatever it is.
+
+348
+00:29:26,291 --> 00:29:32,095
+[SPEAKER_02]: I think the binary idea goes unfortunately filters up into management as well.
+
+349
+00:29:32,615 --> 00:29:36,478
+[SPEAKER_02]: You know when we had this idea of test coverage which hopefully is going away
+
+350
+00:29:37,699 --> 00:29:42,601
+[SPEAKER_02]: You know, if the managers would go, well, of course we want 100% test coverage.
+
+351
+00:29:42,641 --> 00:29:45,462
+[SPEAKER_02]: And then we had to go, oh, this was a bad idea.
+
+352
+00:29:45,482 --> 00:29:48,644
+[SPEAKER_02]: We need to change this model.
+
+353
+00:29:48,664 --> 00:29:50,485
+[SPEAKER_02]: But it was measurable.
+
+354
+00:29:50,845 --> 00:29:54,426
+[SPEAKER_02]: So you can't manage what you can't measure.
+
+355
+00:29:54,446 --> 00:29:56,167
+[SPEAKER_02]: That's what they say in business school.
+
+356
+00:29:56,187 --> 00:29:57,348
+[SPEAKER_02]: That's what they say.
+
+357
+00:29:58,428 --> 00:29:58,708
+[SPEAKER_02]: Right.
+
+358
+00:29:58,808 --> 00:30:00,470
+[SPEAKER_02]: So we got to have, we got to have measures.
+
+359
+00:30:00,650 --> 00:30:06,554
+[SPEAKER_02]: And if we're going to measure it, then if I'm going to get a promotion, then it's got to be a hundred percent.
+
+360
+00:30:08,196 --> 00:30:09,597
+[SPEAKER_00]: This comes back down to the book writing.
+
+361
+00:30:09,737 --> 00:30:15,121
+[SPEAKER_00]: It's like 80% complete for like two years, 20%, which is really hard.
+
+362
+00:30:15,521 --> 00:30:19,364
+[SPEAKER_02]: The last few percent are the ones that it's hard to get out of.
+
+363
+00:30:20,825 --> 00:30:24,088
+[SPEAKER_02]: So different approaches to dealing with flaky tasks.
+
+364
+00:30:24,368 --> 00:30:27,410
+[SPEAKER_02]: Maybe the, the Uber point is that you
+
+365
+00:30:28,271 --> 00:30:35,916
+[SPEAKER_02]: you should put some thought into how you're dealing with and how you're classifying flaky tests and there's different approaches that you can take.
+
+366
+00:30:36,296 --> 00:30:43,061
+[SPEAKER_02]: You can do retries as part of that in the GRPC Kotlin project that I maintain.
+
+367
+00:30:43,101 --> 00:30:44,362
+[SPEAKER_02]: We have a flaky test and I have
+
+368
+00:30:44,882 --> 00:30:45,922
+[SPEAKER_02]: No idea why it's flaky.
+
+369
+00:30:46,383 --> 00:30:47,943
+[SPEAKER_02]: I've not been able to figure that out.
+
+370
+00:30:48,443 --> 00:30:57,006
+[SPEAKER_02]: And so there's a cool gradle module, gradle plugin that I use that just like retries the whole test suite multiple times.
+
+371
+00:30:57,506 --> 00:31:05,588
+[SPEAKER_02]: And it's kind of a brute force approach, but ultimately, you know, I get a green build and that feels good.
+
+372
+00:31:06,488 --> 00:31:12,771
+[SPEAKER_02]: But so retries at some granularity is probably one strategy that you can take.
+
+373
+00:31:13,331 --> 00:31:21,595
+[SPEAKER_02]: But then I think you mentioned a few other possible approaches that you could take, and maybe something that the Great Old Develocity tool helps with.
+
+374
+00:31:21,695 --> 00:31:26,497
+[SPEAKER_00]: So Develocity uses the retries thing from Great Old, but also from Maven to be like,
+
+375
+00:31:28,238 --> 00:31:29,498
+[SPEAKER_00]: to flag it as flaky.
+
+376
+00:31:29,538 --> 00:31:34,842
+[SPEAKER_00]: So at least you're going one step further than, I retried it, it went green, so it's all good.
+
+377
+00:31:34,862 --> 00:31:39,724
+[SPEAKER_00]: I retried it, it went green, but hey, I don't think that's right.
+
+378
+00:31:40,085 --> 00:31:46,808
+[SPEAKER_00]: So Develocity kind of flags that and it shows you like these are how many flaky tests you had in this build and you can look at it over time.
+
+379
+00:31:46,828 --> 00:31:49,590
+[SPEAKER_00]: So you can see your most flaky tests, which is really helpful.
+
+380
+00:31:49,970 --> 00:31:52,772
+[SPEAKER_00]: The other thing that came into a more recent version of Develocity is
+
+381
+00:31:53,272 --> 00:32:09,149
+[SPEAKER_00]: the way that I've done flaky test detection in the past which is from build to build given that things haven't changed this test tends to go red green red green red green so it's probably flaky and so then you can prioritise them and then this allows you to actually do something about your flaky test because
+
+382
+00:32:09,673 --> 00:32:12,534
+[SPEAKER_00]: When I go to conferences and I ask people, do you have flaky tests?
+
+383
+00:32:12,694 --> 00:32:14,455
+[SPEAKER_00]: Some people say, I don't know.
+
+384
+00:32:15,075 --> 00:32:16,956
+[SPEAKER_00]: And that worries me very deeply.
+
+385
+00:32:17,316 --> 00:32:24,040
+[SPEAKER_00]: Because I know that when we work on very complex systems, which most of us are working on complex systems these days, our CI system is like.
+
+386
+00:32:25,300 --> 00:32:26,960
+[SPEAKER_00]: I'm not going to say it's red all the time.
+
+387
+00:32:27,000 --> 00:32:39,984
+[SPEAKER_00]: I'm going to say it's red sometimes, it's green sometimes, and I don't really know what is the real state of my tests in CI because, like you say, are they 90% passing or 1% passing?
+
+388
+00:32:40,004 --> 00:32:42,184
+[SPEAKER_00]: Because it went red, and I'm not really sure what that means.
+
+389
+00:32:42,784 --> 00:32:48,806
+[SPEAKER_00]: And with some, at least some visibility over the flaky tests, we know, well, this goes red 20% at the time because of flaky tests.
+
+390
+00:32:48,886 --> 00:32:48,966
+[SPEAKER_00]: And
+
+391
+00:32:49,426 --> 00:32:54,567
+[SPEAKER_00]: Maybe you can put them into a different part of the build or we talk about quarantining them.
+
+392
+00:32:54,908 --> 00:32:58,388
+[SPEAKER_00]: I've worked in a place where you put an annotation on them, which says ignore until.
+
+393
+00:32:58,749 --> 00:33:03,330
+[SPEAKER_00]: So you give yourself like two weeks to kind of like fix it.
+
+394
+00:33:03,390 --> 00:33:06,731
+[SPEAKER_00]: And then if you haven't fixed it, it starts fading.
+
+395
+00:33:07,331 --> 00:33:09,151
+[SPEAKER_02]: Oh, that's a cool approach.
+
+396
+00:33:09,251 --> 00:33:10,812
+[SPEAKER_02]: Is this part of devalocity?
+
+397
+00:33:11,272 --> 00:33:16,858
+[SPEAKER_00]: No, this was when I worked with Dave Farley and we had like, we used a JUnit annotation to... Oh, we priced our own annotation.
+
+398
+00:33:17,038 --> 00:33:26,527
+[SPEAKER_02]: So the JUnit annotation like gives you a time box that you can ignore the flakiness for and then the tests are absolutely failing after that.
+
+399
+00:33:26,547 --> 00:33:29,610
+[SPEAKER_00]: Yeah, it doesn't run the tests for a while and then when the date goes past, it starts running it again.
+
+400
+00:33:29,630 --> 00:33:34,916
+[SPEAKER_00]: And then if it fails because you forgot to do anything about it, you're like, oh yeah, I really need to get on that thing.
+
+401
+00:33:35,576 --> 00:33:45,485
+[SPEAKER_02]: It's a good point because since I added the retry to GRPC Kotlin, I have totally forgotten that I should at some point investigate that I have a flaky test.
+
+402
+00:33:46,025 --> 00:33:49,008
+[SPEAKER_02]: Now it's just like, oh, the build is green all the time.
+
+403
+00:33:49,068 --> 00:33:53,452
+[SPEAKER_02]: And so bug fixed when in reality the bug is not fixed.
+
+404
+00:33:53,832 --> 00:33:56,775
+[SPEAKER_00]: And so that's one of the things we talk about from Gradle as well.
+
+405
+00:33:56,795 --> 00:33:58,217
+[SPEAKER_00]: And the Gradle developers do this.
+
+406
+00:33:58,257 --> 00:34:05,464
+[SPEAKER_00]: They schedule flaky test days so that instead of working on production code or whatever, today is a flaky test day.
+
+407
+00:34:05,484 --> 00:34:06,705
+[SPEAKER_00]: So we're going to use devloss tea.
+
+408
+00:34:06,745 --> 00:34:09,007
+[SPEAKER_00]: We're going to rank our tests by something.
+
+409
+00:34:09,088 --> 00:34:10,829
+[SPEAKER_00]: It might be most flaky or it might be
+
+410
+00:34:11,770 --> 00:34:38,370
+[SPEAKER_00]: um the ones that get run the most or whatever it is by some metric and then just go go right that's the one i'm yeah some information to guide you to what should be a higher priority than than other things yeah and you could see things like if it's obviously if it started becoming flaky in the last week then that allows you to drill in oh what was that commit what did we do or did we change something in ci in that time so you have more metrics to kind of dive in and try and troubleshoot the problem awesome
+
+411
+00:34:38,658 --> 00:34:40,459
+[SPEAKER_02]: So what does dev velocity do?
+
+412
+00:34:41,739 --> 00:34:45,540
+[SPEAKER_00]: So dev velocity is, I'm not sure we've got a succinct way of describing this at the moment.
+
+413
+00:34:45,600 --> 00:34:47,141
+[SPEAKER_00]: It is a developer productivity tool.
+
+414
+00:34:49,822 --> 00:34:55,104
+[SPEAKER_00]: It's on-prem, it's installed on-prem at organizations, and it allows you to do a number of different things.
+
+415
+00:34:55,564 --> 00:34:57,144
+[SPEAKER_00]: One, it helps speed up your build.
+
+416
+00:34:57,524 --> 00:35:00,605
+[SPEAKER_00]: So it provides things like build caching for Maven and Gradle.
+
+417
+00:35:01,006 --> 00:35:07,848
+[SPEAKER_00]: So Maven doesn't generally have, there is an open source build cache, but dev velocity has a better one, I have to say that.
+
+418
+00:35:08,568 --> 00:35:16,574
+[SPEAKER_00]: I don't know what the difference is, but there's a build cache, so it allows you to to cache the output of various builds, so you don't always have to rerun builds, you get faster builds.
+
+419
+00:35:17,175 --> 00:35:24,120
+[SPEAKER_00]: So Devil Oste provides acceleration technologies, but it also provides analytics like flaky tests, build failures.
+
+420
+00:35:24,541 --> 00:35:29,885
+[SPEAKER_00]: And what I think is really interesting about this is it provides it not just for CI, but for your local builds too.
+
+421
+00:35:30,365 --> 00:35:32,247
+[SPEAKER_00]: So in one dashboard, I get to see
+
+422
+00:35:32,967 --> 00:35:51,031
+[SPEAKER_00]: This test which passes all the time on ci is very flaky locally and it might be a resources thing or it might be a configuration thing or whatever or I can see if one of my tests fails in my build and I go to dev velocity and look at the history I can see oh this fails a whole bunch for like these people on my team.
+
+423
+00:35:51,511 --> 00:35:53,753
+[SPEAKER_00]: And so I'm going to speak to those people about how they fixed it.
+
+424
+00:35:53,893 --> 00:36:02,981
+[SPEAKER_00]: So it pulls together all these stats from your builds, like local builds and CI builds, and allows you to actually start using that information to make improvements.
+
+425
+00:36:03,501 --> 00:36:07,445
+[SPEAKER_00]: So my experience of builds, be it Gradle or Maven or whatever, or Ant or whatever,
+
+426
+00:36:07,945 --> 00:36:20,450
+[SPEAKER_00]: is that someone creates the build, and then we all tentatively touch it from time to time, and we try not to break it, and then we just kind of live with it and accept it as it is.
+
+427
+00:36:22,791 --> 00:36:28,174
+[SPEAKER_00]: It's come out of the experience that the Gradle folks have had doing consulting for companies that run Gradle.
+
+428
+00:36:28,675 --> 00:36:31,256
+[SPEAKER_00]: Here's all the things that you can do to improve your build.
+
+429
+00:36:31,597 --> 00:36:33,278
+[SPEAKER_00]: This is how you can improve the performance.
+
+430
+00:36:33,338 --> 00:36:36,299
+[SPEAKER_00]: This is how you can improve parallelization.
+
+431
+00:36:36,820 --> 00:36:38,841
+[SPEAKER_00]: You need visibility over these sorts of things.
+
+432
+00:36:39,381 --> 00:36:44,625
+[SPEAKER_00]: And it kind of says you shouldn't accept the build as a static thing.
+
+433
+00:36:44,845 --> 00:36:48,147
+[SPEAKER_00]: It's kind of living code the same way our code is.
+
+434
+00:36:48,827 --> 00:37:00,864
+[SPEAKER_00]: And if we could actually just look at it, inspect it, get some analytics and provide some tools for things like acceleration, then it doesn't have to be this annoying thing that everyone's scared of touching that slows us down.
+
+435
+00:37:00,944 --> 00:37:03,848
+[SPEAKER_00]: This is something that's actually can help aid our productivity.
+
+436
+00:37:05,017 --> 00:37:09,339
+[SPEAKER_02]: So in production systems, we have observability and ops.
+
+437
+00:37:09,740 --> 00:37:15,023
+[SPEAKER_02]: And it sounds like this tool is essentially like ops and observability for builds.
+
+438
+00:37:15,443 --> 00:37:16,824
+[SPEAKER_00]: Right, exactly.
+
+439
+00:37:16,904 --> 00:37:22,787
+[SPEAKER_00]: And so I read something in release it, the second edition of release it.
+
+440
+00:37:23,187 --> 00:37:23,688
+[SPEAKER_00]: And he says,
+
+441
+00:37:24,648 --> 00:37:35,211
+[SPEAKER_00]: it says that we should be treating our development machines and our QA environment like the production environment because it's our environment for producing the code that goes into production.
+
+442
+00:37:35,731 --> 00:37:42,832
+[SPEAKER_00]: And yet actually we quite often just ignore this or have like crappy QA environments or like cheap laptops for developers.
+
+443
+00:37:43,593 --> 00:37:45,453
+[SPEAKER_00]: We don't clean stuff up after ourselves.
+
+444
+00:37:45,473 --> 00:37:47,474
+[SPEAKER_00]: You know, we're just trying to get by.
+
+445
+00:37:47,494 --> 00:37:48,134
+[SPEAKER_00]: And so
+
+446
+00:37:49,534 --> 00:37:51,596
+[SPEAKER_00]: Things like dev velocity are kind of stepping the direction.
+
+447
+00:37:51,896 --> 00:38:00,403
+[SPEAKER_00]: It's a step towards developer productivity and dev x and platform engineering and those kinds of things of like, let's take this area seriously.
+
+448
+00:38:00,923 --> 00:38:02,845
+[SPEAKER_00]: Our development environments are important.
+
+449
+00:38:03,005 --> 00:38:11,071
+[SPEAKER_00]: Our testing environments are important, staging, CI, all of those things should be monitored the same way that we would with a production environment.
+
+450
+00:38:11,251 --> 00:38:17,957
+[SPEAKER_00]: And we should be investing time and improving those things rather than just going, well, you know, the build takes 10 minutes and it is what it is.
+
+451
+00:38:18,612 --> 00:38:18,812
+[SPEAKER_02]: Right.
+
+452
+00:38:18,972 --> 00:38:22,715
+[SPEAKER_02]: Well, but those things are not what the customer's paying for.
+
+453
+00:38:22,755 --> 00:38:25,237
+[SPEAKER_02]: The customer's paying for that code that we're working on.
+
+454
+00:38:25,617 --> 00:38:27,058
+[SPEAKER_02]: So those things are secondary.
+
+455
+00:38:27,078 --> 00:38:30,521
+[SPEAKER_00]: But that's why DevLosty is kind of interested.
+
+456
+00:38:30,541 --> 00:38:31,462
+[SPEAKER_02]: Developers are free.
+
+457
+00:38:31,502 --> 00:38:31,702
+[SPEAKER_02]: Yeah.
+
+458
+00:38:32,775 --> 00:38:35,477
+[SPEAKER_00]: The dev velocity is interesting because then you've got statistics.
+
+459
+00:38:35,497 --> 00:38:41,061
+[SPEAKER_00]: So you can say, let's say you've got a 10 minute build time for everyone on the team when they build locally.
+
+460
+00:38:41,381 --> 00:38:46,204
+[SPEAKER_00]: Now you have stats for how long the build takes, how frequently your developers run that build.
+
+461
+00:38:46,524 --> 00:39:00,053
+[SPEAKER_00]: And then all you have to do is times that by your average developer salary and figure out, oh my God, we are losing so much money just because we haven't invested a couple of days in figuring out how to reduce our build time.
+
+462
+00:39:00,814 --> 00:39:06,639
+[SPEAKER_02]: But this can backfire and make developers unhappy, because when are they going to go out and sword fight in the hallway?
+
+463
+00:39:06,859 --> 00:39:10,201
+[SPEAKER_02]: I was going to do a video about that.
+
+464
+00:39:10,221 --> 00:39:15,445
+[SPEAKER_00]: I was going to do a video about when developers don't want to improve their productivity.
+
+465
+00:39:17,087 --> 00:39:18,327
+[SPEAKER_02]: Actually, that could be very funny.
+
+466
+00:39:18,348 --> 00:39:21,550
+[SPEAKER_02]: I've worked in environments like that.
+
+467
+00:39:21,630 --> 00:39:23,772
+[SPEAKER_02]: I need these long builds, so I have time to look at Twitter.
+
+468
+00:39:24,292 --> 00:39:25,192
+[SPEAKER_00]: Right, exactly.
+
+469
+00:39:25,272 --> 00:39:28,853
+[SPEAKER_00]: I need to, or I need to, I don't know, go out for a smoke, whatever it is that people do.
+
+470
+00:39:28,873 --> 00:39:32,654
+[SPEAKER_00]: We used to, actually, so here's a story that's going to go in that video, I hope.
+
+471
+00:39:33,075 --> 00:39:37,536
+[SPEAKER_00]: When I used to work at a big investment bank in London, we had three hour release times.
+
+472
+00:39:38,056 --> 00:39:40,857
+[SPEAKER_00]: And so, and we would have to kick off the release end of day, 6pm.
+
+473
+00:39:42,301 --> 00:39:45,504
+[SPEAKER_00]: This is clearly when I didn't have children or a family or a life, actually.
+
+474
+00:39:45,524 --> 00:39:47,446
+[SPEAKER_00]: So we would do these releases.
+
+475
+00:39:47,486 --> 00:39:53,973
+[SPEAKER_00]: This is released to QA, by the way, and we would have to do this every week for a three month period while we're going through the testing phase.
+
+476
+00:39:54,514 --> 00:40:00,520
+[SPEAKER_00]: So we would kick off the release process, which starts off with database migration or whatever it is.
+
+477
+00:40:00,960 --> 00:40:02,442
+[SPEAKER_00]: We'd go downstairs to the pub.
+
+478
+00:40:02,822 --> 00:40:04,923
+[SPEAKER_00]: We have enough time for a drink each.
+
+479
+00:40:05,243 --> 00:40:11,165
+[SPEAKER_00]: We come upstairs, we kick off the next process, go downstairs for another drink, come back upstairs.
+
+480
+00:40:11,745 --> 00:40:18,807
+[SPEAKER_00]: And because I'm not going to sit in an empty office, it was me and my colleague, I'm not going to sit there in an empty office for three hours staring at a progress bar.
+
+481
+00:40:20,147 --> 00:40:23,549
+[SPEAKER_00]: And so we did talk about improving that build process.
+
+482
+00:40:23,929 --> 00:40:29,271
+[SPEAKER_00]: And there's a lot of pushback, the normal stuff of, oh, you can't automate this because what happens when it goes wrong?
+
+483
+00:40:29,311 --> 00:40:34,193
+[SPEAKER_00]: It's like, it's literally 12 pages of scripted things to do.
+
+484
+00:40:34,793 --> 00:40:37,854
+[SPEAKER_00]: That seems like something we should be able to automate, right?
+
+485
+00:40:38,415 --> 00:40:41,816
+[SPEAKER_00]: And then we could actually kick that off and go to the pub for three drinks in a while and then come back.
+
+486
+00:40:42,356 --> 00:40:43,376
+[SPEAKER_02]: I have to go back and forth.
+
+487
+00:40:44,177 --> 00:40:44,337
+[SPEAKER_02]: Yeah.
+
+488
+00:40:44,777 --> 00:40:48,358
+[SPEAKER_00]: So yeah, so there's times when we don't necessarily want to improve our productivity.
+
+489
+00:40:48,738 --> 00:41:00,381
+[SPEAKER_00]: Similar sorts of organizations where if as developers we don't really feel valued and we do feel like we're measured by the amount of time we sit on the chair and in front of the computer,
+
+490
+00:41:01,121 --> 00:41:07,763
+[SPEAKER_00]: why would I want to be more effective and more productive during that time when you're literally just measuring bum time on the seat?
+
+491
+00:41:08,244 --> 00:41:20,588
+[SPEAKER_00]: I can kind of, I would quite happily manually run this script and manually copy this from here to here because I'm filling my time with something useful instead of optimizing it so I can do something else.
+
+492
+00:41:22,335 --> 00:41:22,615
+[SPEAKER_02]: Why?
+
+493
+00:41:22,635 --> 00:41:30,321
+[SPEAKER_02]: It feels like there are fairly easy, straightforward ways to improve developer productivity.
+
+494
+00:41:31,141 --> 00:41:37,246
+[SPEAKER_02]: And yet it seems like generally organizations do not invest in improving productivity.
+
+495
+00:41:37,306 --> 00:41:44,111
+[SPEAKER_02]: Just as like a silly example, I think a lot of especially enterprise developers work on really crappy machines.
+
+496
+00:41:45,272 --> 00:41:54,482
+[SPEAKER_02]: And organizations could spend a few thousand dollars per developer, get them good machines that actually aren't super slow and always running out of memory and whatever, but they don't.
+
+497
+00:41:54,502 --> 00:41:56,384
+[SPEAKER_02]: Because of accounting.
+
+498
+00:41:56,904 --> 00:41:58,006
+[SPEAKER_02]: Yeah.
+
+499
+00:41:58,026 --> 00:42:03,472
+[SPEAKER_02]: But why has it been so hard to convince organizations that developer productivity is worth it?
+
+500
+00:42:04,453 --> 00:42:05,394
+[SPEAKER_02]: It's worth investing in.
+
+501
+00:42:07,369 --> 00:42:10,512
+[SPEAKER_00]: I don't really know the, oh, I don't know the answer to that question.
+
+502
+00:42:10,852 --> 00:42:12,414
+[SPEAKER_00]: I do know the laptops is a good one.
+
+503
+00:42:12,814 --> 00:42:16,437
+[SPEAKER_00]: I worked at another investment bank in London where I went there.
+
+504
+00:42:16,457 --> 00:42:23,103
+[SPEAKER_00]: It was when I was working at ThoughtWorks and I went there with my ThoughtWorks Mac and then the bank gave me this thing.
+
+505
+00:42:23,124 --> 00:42:28,488
+[SPEAKER_02]: They're like, here's your laptop from 1982 that you can use to build the software with.
+
+506
+00:42:28,889 --> 00:42:30,791
+[SPEAKER_02]: Don't hurt your back picking it up.
+
+507
+00:42:31,671 --> 00:42:33,353
+[SPEAKER_00]: I'm like, this is not portable.
+
+508
+00:42:34,694 --> 00:42:37,317
+[SPEAKER_00]: And what do you expect me to do with this thing?
+
+509
+00:42:37,377 --> 00:42:39,419
+[SPEAKER_00]: It takes, and I could measure it compared to the Mac.
+
+510
+00:42:39,799 --> 00:42:40,600
+[SPEAKER_00]: It was a MacBook Air.
+
+511
+00:42:40,640 --> 00:42:48,007
+[SPEAKER_00]: It wasn't like some super powered Mac, but the MacBook Air would run things four times faster at least than this brick, right?
+
+512
+00:42:48,287 --> 00:42:49,648
+[SPEAKER_00]: And so here's an interesting thing.
+
+513
+00:42:49,668 --> 00:42:51,950
+[SPEAKER_00]: And this is something I've been finding with dev velocity is that
+
+514
+00:42:53,132 --> 00:43:05,123
+[SPEAKER_00]: One of the problems is that I don't want to blame developers, but as developers, we've been told that we don't have any power over this and we are kind of at the mercy of accounting.
+
+515
+00:43:05,724 --> 00:43:12,650
+[SPEAKER_00]: But once you start collecting some statistics, like with DevLosty, we saw that we collected statistics of things like build times.
+
+516
+00:43:13,243 --> 00:43:21,725
+[SPEAKER_00]: So we've done this study where build times for one organization, I can't remember what the overall build time was, but let's say it's 20 minutes because it's not unusual.
+
+517
+00:43:22,965 --> 00:43:29,846
+[SPEAKER_00]: And you build it even on an M1 Mac and then you build it on an M2 Mac and it takes like half the time.
+
+518
+00:43:30,347 --> 00:43:34,047
+[SPEAKER_00]: And then they did the calculation of time versus developer salary.
+
+519
+00:43:34,847 --> 00:43:38,888
+[SPEAKER_00]: And like how long will this pay itself off?
+
+520
+00:43:39,068 --> 00:43:42,249
+[SPEAKER_00]: Like if we buy everyone an M2 Mac, like how long will it take to pay that off?
+
+521
+00:43:43,269 --> 00:43:43,421
+[SPEAKER_00]: Like.
+
+522
+00:43:43,971 --> 00:43:49,775
+[SPEAKER_00]: six weeks or less, you know, some crazy, because we're measuring for all the wrong things.
+
+523
+00:43:49,915 --> 00:43:58,501
+[SPEAKER_00]: And if you can measure things, if you can find things to measure, which impact our productivity, which is why build times is kind of interesting one, because you can measure that.
+
+524
+00:43:58,982 --> 00:44:01,463
+[SPEAKER_00]: And then start putting financial numbers on this.
+
+525
+00:44:01,844 --> 00:44:05,786
+[SPEAKER_00]: Then someone else goes, Oh, yeah, that's, that's a lot of money.
+
+526
+00:44:06,127 --> 00:44:07,848
+[SPEAKER_00]: We should probably do something about that.
+
+527
+00:44:08,068 --> 00:44:09,329
+[SPEAKER_00]: So speak in the past.
+
+528
+00:44:09,429 --> 00:44:11,731
+[SPEAKER_00]: Developers have been like, my build is slow.
+
+529
+00:44:11,831 --> 00:44:13,192
+[SPEAKER_00]: And accounting goes, okay,
+
+530
+00:44:14,613 --> 00:44:16,014
+[SPEAKER_02]: Right, we don't know what to do with that.
+
+531
+00:44:16,134 --> 00:44:32,124
+[SPEAKER_02]: Yeah, so you're saying, okay, acknowledge that the accountants are running things and just speak in their language, which is, I'd say, step one, but step two would be maybe we should put decision-making.
+
+532
+00:44:32,524 --> 00:44:36,247
+[SPEAKER_02]: Some decisions should be made not just by the accountants.
+
+533
+00:44:37,609 --> 00:44:39,011
+[SPEAKER_00]: Right.
+
+534
+00:44:39,232 --> 00:44:49,650
+[SPEAKER_00]: I've been speaking to some potential customers of dev velocity and some of the effective ways of making changes for developer productivity is a sandwich approach.
+
+535
+00:44:50,083 --> 00:44:58,372
+[SPEAKER_00]: So someone at like maybe sea level or certainly some sort of like senior engineering level decides developer productivity is important.
+
+536
+00:44:58,592 --> 00:44:59,993
+[SPEAKER_00]: Our developers are expensive.
+
+537
+00:45:00,033 --> 00:45:01,955
+[SPEAKER_00]: They're one of our most expensive resources.
+
+538
+00:45:02,556 --> 00:45:03,817
+[SPEAKER_00]: Let's get the most out of them.
+
+539
+00:45:03,877 --> 00:45:06,500
+[SPEAKER_00]: Not like squeezing lines of code out of them, but like let's
+
+540
+00:45:07,481 --> 00:45:22,804
+[SPEAKER_00]: enable them to be good at their job this is this is an important thing for this company so someone at the top level says that and the developers go great this is definitely something that i want i don't want to be wasting time waiting for staff or struggling with a terrible laptop or
+
+541
+00:45:23,348 --> 00:45:27,409
+[SPEAKER_00]: waiting for CIQ times, which are like 90 minutes till my build gets in there.
+
+542
+00:45:27,869 --> 00:45:35,631
+[SPEAKER_00]: So if you have the top level and the developer level, you can kind of effectively squeeze in towards middle management and push in both directions to affect the kind of change.
+
+543
+00:45:35,951 --> 00:45:47,273
+[SPEAKER_00]: Because often what you find at the mid-level, there's a lot of competing different objectives for competing different managers, and a lot of them are just obviously trying to push out features and not thinking about like developer productivity.
+
+544
+00:45:47,313 --> 00:45:52,454
+[SPEAKER_00]: So if you can target it from the top level and the bottom at the same time, then you can really start to affect change.
+
+545
+00:45:53,291 --> 00:45:57,322
+[SPEAKER_02]: Well, I'm seeing the future as well we have
+
+546
+00:45:58,976 --> 00:46:01,198
+[SPEAKER_02]: We have human limitations in all of these things.
+
+547
+00:46:01,238 --> 00:46:15,809
+[SPEAKER_02]: You know, the accountants see it from their viewpoint, the CEOs see it from whatever they're, and I'm thinking, we are gonna eventually replace the C-suite with AI, and they can see, that'll see everything.
+
+548
+00:46:16,429 --> 00:46:22,494
+[SPEAKER_02]: And it won't be these little siloed bits of knowledge that are limited by what that person has been exposed to.
+
+549
+00:46:23,434 --> 00:46:26,617
+[SPEAKER_02]: And companies are just gonna run so much better.
+
+550
+00:46:27,230 --> 00:46:29,311
+[SPEAKER_00]: But yes, I would love that.
+
+551
+00:46:29,811 --> 00:46:34,833
+[SPEAKER_00]: But I also feel like an AI is exactly the same as a human being.
+
+552
+00:46:34,973 --> 00:46:38,934
+[SPEAKER_00]: It learns based on the weights you give to certain objectives.
+
+553
+00:46:39,074 --> 00:46:42,475
+[SPEAKER_00]: So the AI is still going to optimize for something.
+
+554
+00:46:42,495 --> 00:46:44,316
+[SPEAKER_00]: Or what are they going to optimize for?
+
+555
+00:46:44,436 --> 00:46:44,716
+[SPEAKER_02]: It is.
+
+556
+00:46:44,956 --> 00:46:48,157
+[SPEAKER_02]: But I'll say the difference is the human being can hold whatever.
+
+557
+00:46:49,898 --> 00:46:51,680
+[SPEAKER_02]: You know, five easily ignore information.
+
+558
+00:46:51,781 --> 00:46:57,248
+[SPEAKER_02]: Well, easily ignore information and can only hold whatever five to seven things in its mind at one time.
+
+559
+00:46:57,668 --> 00:47:00,452
+[SPEAKER_02]: So their equation is extremely limited.
+
+560
+00:47:00,532 --> 00:47:04,017
+[SPEAKER_02]: Whereas the AI can hold all of these factors.
+
+561
+00:47:04,577 --> 00:47:05,599
+[SPEAKER_02]: And that's the difference.
+
+562
+00:47:06,299 --> 00:47:20,608
+[SPEAKER_00]: It's true and for the AI, let's say, let's like, yeah, so the AI, if you had multiple AIs at the sea level, instead of them having to have a whole bunch of meetings all the time to sync, they're just kind of like sending messages to each other.
+
+563
+00:47:22,549 --> 00:47:22,889
+[SPEAKER_00]: Yeah.
+
+564
+00:47:23,150 --> 00:47:27,213
+[SPEAKER_02]: And I don't know that you would have all these little signs.
+
+565
+00:47:27,233 --> 00:47:28,794
+[SPEAKER_02]: No, no, no, exactly.
+
+566
+00:47:29,155 --> 00:47:34,419
+[SPEAKER_02]: It would just be going, oh, look, the developers are having trouble here.
+
+567
+00:47:34,779 --> 00:47:38,442
+[SPEAKER_02]: We need to fix that so the whole company moves better.
+
+568
+00:47:38,562 --> 00:47:44,187
+[SPEAKER_02]: And it isn't a matter of, well, I don't understand what long build times are.
+
+569
+00:47:44,207 --> 00:47:44,908
+[SPEAKER_00]: Right.
+
+570
+00:47:45,608 --> 00:47:50,092
+[SPEAKER_02]: the AI would know that and it would go, how can we improve all of these things at once?
+
+571
+00:47:50,893 --> 00:48:02,662
+[SPEAKER_02]: So one idea to run by you, we talk about developer productivity and we had a podcast a while back around the developer happiness.
+
+572
+00:48:03,703 --> 00:48:12,010
+[SPEAKER_02]: One piece of developer productivity is, do developers get fulfillment and enjoyment out of their flow and being able to be in flow state?
+
+573
+00:48:12,510 --> 00:48:15,492
+[SPEAKER_02]: But then there is the accounting side, at least pre-AI.
+
+574
+00:48:15,952 --> 00:48:20,554
+[SPEAKER_02]: And the accounting side, I think when we say developer productivity, accounting doesn't care.
+
+575
+00:48:21,195 --> 00:48:39,064
+[SPEAKER_02]: But if we said developer efficiency, like if we put it into the efficiency terminology, then there is something that maybe we could, and maybe with the velocity, we could actually have reports that illustrate like, oh, here's ways that we could actually make developers more efficient.
+
+576
+00:48:40,625 --> 00:48:41,245
+[SPEAKER_02]: Yeah, I don't know.
+
+577
+00:48:41,285 --> 00:48:49,812
+[SPEAKER_02]: It seems like maybe by classifying everything as developer productivity, we're not actually accomplishing the goals that the developer wants and we're not accomplishing the goals that the business wants.
+
+578
+00:48:50,192 --> 00:48:52,033
+[SPEAKER_02]: It's like we've kind of framed the whole thing wrong.
+
+579
+00:48:54,113 --> 00:49:16,163
+[SPEAKER_00]: Yes, I liked what you said about developer happiness because to me the reason why I'm really excited about developer productivity is not because I want developers to ship more lines of code or even put more features in the hands of users but because like you said like when I'm in the flow state I'm happy, when I'm like when I don't have to fight with my laptop or I don't have to wait for a
+
+580
+00:49:16,643 --> 00:49:21,106
+[SPEAKER_00]: million years for CI to give me the answer that I want, then I'm happy and I'm creative.
+
+581
+00:49:21,246 --> 00:49:25,069
+[SPEAKER_00]: And so for me, developer productivity equals happiness.
+
+582
+00:49:25,389 --> 00:49:32,514
+[SPEAKER_00]: But then we all saw the McKinsey report, which was like developer productivity is who to fire because they're not productive, which is not what we're talking about here.
+
+583
+00:49:33,955 --> 00:49:34,856
+[SPEAKER_02]: Yeah, exactly.
+
+584
+00:49:34,876 --> 00:49:38,517
+[SPEAKER_02]: Yeah, so there's all these different kinds of lenses to look at it through.
+
+585
+00:49:38,537 --> 00:49:51,463
+[SPEAKER_02]: We've kind of lumped them all under developer productivity, and maybe that's part of the challenge is that we should break it down into the more important things, which for us developers is, yes, I want to be in the flow state more.
+
+586
+00:49:52,003 --> 00:49:53,824
+[SPEAKER_02]: That is a fascinating thing.
+
+587
+00:49:53,864 --> 00:50:01,368
+[SPEAKER_02]: I mean, the McKinsey report that you just brought up is like, oh yeah, you can take this information and you filter it through your lens
+
+588
+00:50:02,228 --> 00:50:07,711
+[SPEAKER_02]: which is, oh, well, if they're not productive, get rid of them and get somebody in who that's the solution.
+
+589
+00:50:08,151 --> 00:50:27,721
+[SPEAKER_02]: Whereas the other solution would be, well, in all the layoffs that we're seeing now, I look at that and I'm going, so you spent all this energy finding these people and then as soon as a number flips in the wrong direction or somebody incentivizes you in a different way, you go, oh yeah, we'll just throw them away.
+
+590
+00:50:28,162 --> 00:50:30,283
+[SPEAKER_02]: You're going, that's so much.
+
+591
+00:50:30,683 --> 00:50:34,087
+[SPEAKER_02]: The question wasn't how can we make them more productive as well.
+
+592
+00:50:34,287 --> 00:50:34,707
+[SPEAKER_02]: How do we?
+
+593
+00:50:34,888 --> 00:50:38,011
+[SPEAKER_02]: Yeah, well, I mean, we're a publicly held corporation.
+
+594
+00:50:38,632 --> 00:50:43,737
+[SPEAKER_02]: Our obligation is to maximize shareholder profits.
+
+595
+00:50:44,238 --> 00:50:46,120
+[SPEAKER_02]: So that's what we do.
+
+596
+00:50:46,320 --> 00:50:51,646
+[SPEAKER_02]: And you're looking at it, you're going, yeah, but in the big picture, that's not maximizing shareholder profits.
+
+597
+00:50:51,826 --> 00:50:59,996
+[SPEAKER_00]: So dumb isn't it you just know like you say all that talent goes away all the goodwill from the developer community kind of you lose a lot of that.
+
+598
+00:51:00,637 --> 00:51:11,390
+[SPEAKER_00]: And the productivity goes down all the people who are left behind demoralized doing twice as much work and they're scared they're scared they're going to be let go as well.
+
+599
+00:51:11,950 --> 00:51:17,994
+[SPEAKER_00]: So in a not very long term, and within 12 months, it's already a losing policy.
+
+600
+00:51:18,314 --> 00:51:18,734
+[SPEAKER_02]: Oh, right.
+
+601
+00:51:18,894 --> 00:51:28,340
+[SPEAKER_02]: Well, and that's the thing, the inability of the sea level to look at the big picture, they are limited in their view.
+
+602
+00:51:28,360 --> 00:51:28,940
+[SPEAKER_02]: And again, I'm
+
+603
+00:51:33,188 --> 00:51:41,691
+[SPEAKER_02]: you know, I'm advocating for smarter systems and that would be, let's let the machines do it once they get better enough.
+
+604
+00:51:42,171 --> 00:51:42,872
+[SPEAKER_02]: I think we will.
+
+605
+00:51:43,252 --> 00:51:48,994
+[SPEAKER_02]: I think, I mean, in my opinion, the VCs are probably gonna start doing this.
+
+606
+00:51:49,034 --> 00:51:58,838
+[SPEAKER_02]: They're gonna go, well, if we can increase our hit rate, let's put the machines, you know, managing things, because then we're gonna make more money.
+
+607
+00:52:00,563 --> 00:52:09,430
+[SPEAKER_02]: So Trisha, what do you do when potential customer of Develocity comes to you and says, can you give me a report of my lowest performing developers?
+
+608
+00:52:10,891 --> 00:52:15,355
+[SPEAKER_00]: I had a conversation with the CEO about this this week because we're talking about
+
+609
+00:52:15,970 --> 00:52:25,592
+[SPEAKER_00]: how to talk about dev velocity in the context of space metrics and space and Dora and those sorts of things.
+
+610
+00:52:26,292 --> 00:52:28,513
+[SPEAKER_00]: And the CEO was quite clear.
+
+611
+00:52:28,613 --> 00:52:33,474
+[SPEAKER_00]: He was like, we will not use dev velocity metrics for individual performance.
+
+612
+00:52:33,654 --> 00:52:35,774
+[SPEAKER_00]: We fundamentally don't agree with that.
+
+613
+00:52:36,494 --> 00:52:45,096
+[SPEAKER_00]: The aim is to empower developers so that we are in a state of flow and happy and not facing friction and toil and slow build times.
+
+614
+00:52:45,929 --> 00:52:50,272
+[SPEAKER_02]: Yeah, but the answer to your question is it doesn't matter what you do.
+
+615
+00:52:50,332 --> 00:52:53,594
+[SPEAKER_02]: You're already screwed when they ask you that question.
+
+616
+00:52:53,614 --> 00:53:01,539
+[SPEAKER_02]: Yeah, because what they're looking for is how do they cut costs, not how do they make their developers more efficient?
+
+617
+00:53:01,739 --> 00:53:02,199
+[SPEAKER_02]: Sure.
+
+618
+00:53:02,219 --> 00:53:02,419
+[SPEAKER_00]: Right.
+
+619
+00:53:02,439 --> 00:53:10,104
+[SPEAKER_00]: And we quite often talk about the idea of being to increase throughput.
+
+620
+00:53:10,564 --> 00:53:11,705
+[SPEAKER_00]: So you're not
+
+621
+00:53:12,526 --> 00:53:15,608
+[SPEAKER_00]: not going to cut costs, you're going to try and increase throughput.
+
+622
+00:53:16,408 --> 00:53:18,209
+[SPEAKER_00]: So don't fire your developers.
+
+623
+00:53:18,749 --> 00:53:20,810
+[SPEAKER_00]: Why don't we just get more out of them?
+
+624
+00:53:20,830 --> 00:53:28,834
+[SPEAKER_00]: And that will make, if you can produce more, whatever that is, more features, or, you know, I don't even know how it works in various ways.
+
+625
+00:53:29,214 --> 00:53:32,256
+[SPEAKER_00]: If the code that the developers are producing is going to
+
+626
+00:53:32,916 --> 00:53:50,421
+[SPEAKER_00]: increase revenue then we should be focusing on that not on decreasing headcount because as you've already said like decreasing headcount doesn't make any sense because you're going to decrease costs sure but you're also decreasing throughput and then you're also decreasing your ability to improve that in the future because now everyone hates you.
+
+627
+00:53:53,121 --> 00:53:53,982
+[SPEAKER_02]: Switching gears real quick.
+
+628
+00:53:56,287 --> 00:54:10,355
+[SPEAKER_02]: As we were talking about observability for build systems, I wanted to ask you if you've seen this concept that I saw somebody talking about on Twitter a while back, which was the concept was, or the question was, why don't we write tests for a build system?
+
+629
+00:54:10,715 --> 00:54:12,196
+[SPEAKER_02]: We write tests for our software.
+
+630
+00:54:13,257 --> 00:54:15,260
+[SPEAKER_02]: to verify that our production system is going to work.
+
+631
+00:54:15,780 --> 00:54:23,131
+[SPEAKER_02]: Why don't we write tests to validate that our build system is doing what we expect it to, and doing it in the amount of time that we expect it to, and so forth.
+
+632
+00:54:23,451 --> 00:54:27,537
+[SPEAKER_02]: Have you seen this idea explored, or is anybody doing this?
+
+633
+00:54:28,138 --> 00:54:29,479
+[SPEAKER_00]: I think this is a great idea.
+
+634
+00:54:29,859 --> 00:54:43,988
+[SPEAKER_00]: And it's ringing bells for me because one of the reasons we switched to Gradle a long time ago in one of the places I worked is because you could separate out the build logic into modules that you could test.
+
+635
+00:54:45,149 --> 00:54:46,050
+[SPEAKER_00]: We tended not to.
+
+636
+00:54:46,970 --> 00:54:48,251
+[SPEAKER_00]: We were using AMP before as well.
+
+637
+00:54:48,271 --> 00:54:52,114
+[SPEAKER_00]: So you could do it with AMP because you can write little Java code and test that.
+
+638
+00:54:53,680 --> 00:54:58,486
+[SPEAKER_00]: I mean, it's kind of difficult because sometimes what you want to test is it moves a file from here to here.
+
+639
+00:54:58,627 --> 00:55:01,110
+[SPEAKER_00]: And like, that's the sort of difficult thing to unit test, right?
+
+640
+00:55:01,230 --> 00:55:01,450
+[SPEAKER_01]: Yeah.
+
+641
+00:55:01,571 --> 00:55:08,560
+[SPEAKER_00]: So, yeah, I mean, I would love to test a build system and check that it's doing what I think it's doing.
+
+642
+00:55:08,660 --> 00:55:10,563
+[SPEAKER_00]: And I think the first thing that
+
+643
+00:55:11,789 --> 00:55:19,117
+[SPEAKER_00]: that one of the things I like about Devalosti, not to pound it too hard, because actually, I'm still fairly new to to Gradle.
+
+644
+00:55:19,457 --> 00:55:22,740
+[SPEAKER_00]: And I'm still kind of, in many ways, I'm still trying to get them to sell to me.
+
+645
+00:55:22,800 --> 00:55:25,003
+[SPEAKER_00]: Like, what is this product and what's it for?
+
+646
+00:55:25,063 --> 00:55:29,327
+[SPEAKER_00]: Because like, I'm not the kind of advocate who's just going to go out and sell a product.
+
+647
+00:55:29,547 --> 00:55:30,528
+[SPEAKER_00]: I really have to believe in it.
+
+648
+00:55:30,808 --> 00:55:34,212
+[SPEAKER_00]: But one of the things I like about Devalosti, and I was using it today in a video, is
+
+649
+00:55:35,313 --> 00:55:39,857
+[SPEAKER_00]: well it's actually not even dev velocity it's the free build scans so that's nice it's free so anyone can use it.
+
+650
+00:55:40,137 --> 00:55:57,831
+[SPEAKER_00]: With a build scan you can see like visually the parallelism of your build so you can see like it's run five different threads and this is where the tasks were run and I really like that because it's not quite the same as an automated test but it's at least some kind of
+
+651
+00:55:58,942 --> 00:56:01,884
+[SPEAKER_00]: feedback into what is happening in the build.
+
+652
+00:56:02,184 --> 00:56:12,429
+[SPEAKER_00]: And so I use these build scans to be like, I want to tune the build now I want to, with this build I was trying to add parallelization, add parallelism, add the build cache.
+
+653
+00:56:12,829 --> 00:56:15,631
+[SPEAKER_00]: And then I wanted to also parallelize the
+
+654
+00:56:16,091 --> 00:56:19,072
+[SPEAKER_00]: individual tests, which is a separate thing too.
+
+655
+00:56:19,392 --> 00:56:26,293
+[SPEAKER_00]: And so I can use the build scan and look at them side by side, and obviously I can look at the overall time, but I can see, are these things running parallel?
+
+656
+00:56:26,953 --> 00:56:30,914
+[SPEAKER_00]: Which things came from the cache versus which compilations needed to happen again?
+
+657
+00:56:31,314 --> 00:56:38,216
+[SPEAKER_00]: And you can even do side by side comparison in terms of like, things like, which dependencies did this build use versus this build?
+
+658
+00:56:38,256 --> 00:56:40,036
+[SPEAKER_00]: So, I mean, that's kind of the first step.
+
+659
+00:56:40,256 --> 00:56:52,633
+[SPEAKER_02]: So you were using a tool to give you that information, and maybe some future could allow us to actually write a test to describe, yes, I want my test to run in parallel.
+
+660
+00:56:52,974 --> 00:56:55,738
+[SPEAKER_02]: This test should validate that my tests were run in parallel.
+
+661
+00:56:56,038 --> 00:56:56,378
+[SPEAKER_00]: Right.
+
+662
+00:56:56,699 --> 00:56:58,860
+[SPEAKER_00]: So we have some validation scripts at Gradle.
+
+663
+00:56:59,241 --> 00:57:03,324
+[SPEAKER_00]: When we go onto a customer site and set them up with dev velocity for the first time, there's two things we do.
+
+664
+00:57:03,724 --> 00:57:04,805
+[SPEAKER_00]: One, we set up dev velocity.
+
+665
+00:57:05,045 --> 00:57:12,952
+[SPEAKER_00]: But the other thing we do is we start optimizing their build for them so they start seeing the improvements of the acceleration part of dev velocity.
+
+666
+00:57:13,510 --> 00:57:15,352
+[SPEAKER_00]: And that is scriptable.
+
+667
+00:57:15,432 --> 00:57:24,999
+[SPEAKER_00]: So it does things like checks out an individual commit, runs it, checks it out to a different location, runs the build, and then sees if there's any differences and that kind of thing.
+
+668
+00:57:25,039 --> 00:57:27,781
+[SPEAKER_00]: And then you get like pass or fail.
+
+669
+00:57:28,101 --> 00:57:36,327
+[SPEAKER_00]: These things, the cache worked as expected because when I reran it, I got it from cache or the cache didn't work as expected because I reran it and I had to rerun everything.
+
+670
+00:57:36,387 --> 00:57:39,370
+[SPEAKER_00]: And so you can automate some of those kinds of things and
+
+671
+00:57:40,090 --> 00:57:53,310
+[SPEAKER_00]: and use those things to also check for regressions so let's say someone goes in in three months time and decides that they're going to one of the things that stops the cash from working is things like generated timestamps that kind of thing because obviously that's like.
+
+672
+00:57:54,263 --> 00:57:59,885
+[SPEAKER_00]: that a newly generated random number or timestamp, it can't... Somebody changes the build.
+
+673
+00:57:59,985 --> 00:58:06,408
+[SPEAKER_02]: They've added something that has made part of the build uncashable and build times go up, but you have no idea why.
+
+674
+00:58:06,428 --> 00:58:07,448
+[SPEAKER_00]: Exactly.
+
+675
+00:58:07,508 --> 00:58:12,830
+[SPEAKER_00]: So if you've got validation scripts and you're running them regularly, it can say this thing is no longer cached.
+
+676
+00:58:13,451 --> 00:58:16,012
+[SPEAKER_00]: So we've only got like four of these scripts.
+
+677
+00:58:16,032 --> 00:58:17,072
+[SPEAKER_00]: So it's a start.
+
+678
+00:58:17,252 --> 00:58:18,853
+[SPEAKER_00]: It's a very small start towards it.
+
+679
+00:58:19,753 --> 00:58:21,574
+[SPEAKER_00]: Yeah, I don't see why not.
+
+680
+00:58:21,714 --> 00:58:28,018
+[SPEAKER_00]: I don't see why we shouldn't be testing our build, certainly for performance, but also like, is it really doing what we think it's doing?
+
+681
+00:58:28,098 --> 00:58:29,819
+[SPEAKER_00]: Is it caching stuff when I expect it to?
+
+682
+00:58:29,839 --> 00:58:31,901
+[SPEAKER_02]: Producing the artifacts in the way that we expect them to be.
+
+683
+00:58:31,981 --> 00:58:32,521
+[SPEAKER_00]: Exactly.
+
+684
+00:58:32,701 --> 00:58:34,362
+[SPEAKER_00]: Is it like doing the right hash codes?
+
+685
+00:58:34,442 --> 00:58:34,923
+[SPEAKER_00]: I don't even know.
+
+686
+00:58:34,943 --> 00:58:35,903
+[SPEAKER_00]: Whatever it is that builds do.
+
+687
+00:58:36,604 --> 00:58:37,184
+[SPEAKER_00]: We should be able to
+
+688
+00:58:37,662 --> 00:58:39,322
+[SPEAKER_00]: check that the build is doing what we think it's doing.
+
+689
+00:58:39,722 --> 00:58:42,083
+[SPEAKER_02]: Yeah, yeah, that'd be fun to explore.
+
+690
+00:58:44,824 --> 00:58:45,264
+[SPEAKER_02]: Cool.
+
+691
+00:58:45,564 --> 00:58:49,865
+[SPEAKER_02]: Well, that's fun talking about builds and productivity and all that.
+
+692
+00:58:51,045 --> 00:58:59,987
+[SPEAKER_02]: Yeah, I think the thing that I'm most cognizant of from this conversation is the idea that all of that stuff
+
+693
+00:59:01,624 --> 00:59:09,186
+[SPEAKER_02]: I mean, it's hard enough for somebody in management to understand what it is that we're doing in the core of it.
+
+694
+00:59:09,807 --> 00:59:15,989
+[SPEAKER_02]: And then the peripheral ideas of, well, how long does, you know, how long do builds take?
+
+695
+00:59:16,109 --> 00:59:17,849
+[SPEAKER_02]: What are developer productivity things?
+
+696
+00:59:17,929 --> 00:59:19,250
+[SPEAKER_02]: That's just too much.
+
+697
+00:59:20,481 --> 00:59:27,446
+[SPEAKER_02]: And so that's why I think we run into these problems where we're looking at it and we're going, those are first class elements.
+
+698
+00:59:28,146 --> 00:59:35,571
+[SPEAKER_02]: And from somebody who you're trying to explain what it is that we do, that's just like extra too much.
+
+699
+00:59:36,071 --> 00:59:37,973
+[SPEAKER_02]: What do we get money from?
+
+700
+00:59:38,213 --> 00:59:40,795
+[SPEAKER_02]: We get money from the code that we ship.
+
+701
+00:59:41,375 --> 00:59:42,176
+[SPEAKER_02]: Those are other things.
+
+702
+00:59:42,396 --> 00:59:43,476
+[SPEAKER_02]: Those are just expenses.
+
+703
+00:59:44,457 --> 00:59:45,938
+[SPEAKER_02]: Yeah, or something.
+
+704
+00:59:46,018 --> 00:59:47,539
+[SPEAKER_02]: Those are peripheral.
+
+705
+00:59:47,659 --> 00:59:48,779
+[SPEAKER_02]: And how do we make that?
+
+706
+00:59:51,080 --> 00:59:55,243
+[SPEAKER_02]: Well, and even as developers for the longest time, we weren't thinking of that.
+
+707
+00:59:55,423 --> 00:59:56,943
+[SPEAKER_02]: Oh, I'll just rerun the compiler.
+
+708
+00:59:57,784 --> 01:00:02,126
+[SPEAKER_02]: And there's still places out there that are just not using automated builds.
+
+709
+01:00:02,626 --> 01:00:03,707
+[SPEAKER_00]: I think that's part of the problem.
+
+710
+01:00:03,727 --> 01:00:09,670
+[SPEAKER_00]: I think as developers, we've got really used to putting up with some crap, like long build times or
+
+711
+01:00:10,299 --> 01:00:19,984
+[SPEAKER_00]: flaky tests or a laptop that doesn't do what we want or we just we go from environment to environment and there's always like in whichever office we work in there's something which is just.
+
+712
+01:00:20,985 --> 01:00:26,868
+[SPEAKER_00]: This is something we just have to put up with as developers one of the things we can do to help our productivity is.
+
+713
+01:00:27,808 --> 01:00:31,252
+[SPEAKER_00]: start raising those kinds of start looking at things which really slow us down.
+
+714
+01:00:31,292 --> 01:00:35,916
+[SPEAKER_00]: You know what it does drive me crazy that the build is six minutes, which to me, a six minute build time seems reasonable.
+
+715
+01:00:36,277 --> 01:00:39,260
+[SPEAKER_00]: But six minutes is not enough time to do anything else.
+
+716
+01:00:39,680 --> 01:00:42,123
+[SPEAKER_00]: But it's too long to sit there staring at the build.
+
+717
+01:00:42,863 --> 01:00:47,508
+[SPEAKER_00]: I can start talking about these and these taking some metrics, these are the things which slow me down.
+
+718
+01:00:47,908 --> 01:00:50,230
+[SPEAKER_00]: Here's a metric that I get a lot with intelligent idea.
+
+719
+01:00:50,831 --> 01:00:56,055
+[SPEAKER_00]: If you change branches, when it re-indexes everything, it takes x amount of time, right?
+
+720
+01:00:56,095 --> 01:00:58,436
+[SPEAKER_00]: And these are things where we can be like, you know what?
+
+721
+01:00:58,537 --> 01:01:01,139
+[SPEAKER_00]: I do this three times a day and it takes this amount of time.
+
+722
+01:01:01,559 --> 01:01:10,206
+[SPEAKER_00]: And what can we do to improve these things so that I don't have to get jolted out of my flow and I can still be doing that lovely thing of, oh, I'm just going to fix this problem.
+
+723
+01:01:12,012 --> 01:01:12,993
+[SPEAKER_02]: That lovely thing.
+
+724
+01:01:13,013 --> 01:01:17,735
+[SPEAKER_02]: Oh, yeah, the whole flow thing, which is ultimately psychology.
+
+725
+01:01:17,775 --> 01:01:24,019
+[SPEAKER_02]: And that's even further outside of the realm of what so many people are used to thinking in terms of.
+
+726
+01:01:24,139 --> 01:01:25,359
+[SPEAKER_02]: But it's essential.
+
+727
+01:01:26,300 --> 01:01:30,722
+[SPEAKER_00]: I tried to do a video about how IntelliJ IDEA helps us to stay in the flow.
+
+728
+01:01:31,002 --> 01:01:33,644
+[SPEAKER_00]: I've been trying to do this video for like six years, by the way.
+
+729
+01:01:34,355 --> 01:01:38,657
+[SPEAKER_00]: And it's so hard because I'm like, but it's just flow, like it just is.
+
+730
+01:01:39,197 --> 01:01:44,760
+[SPEAKER_00]: And you can't fake flow in a screencast because you can't explain it while you're doing it.
+
+731
+01:01:44,820 --> 01:01:50,622
+[SPEAKER_02]: It might be one of the things that I've run into recently is trying to discover, well, trying to prove why inheritance and exceptions
+
+732
+01:02:04,861 --> 01:02:09,065
+[SPEAKER_02]: are problems, why they don't scale, why they don't compose.
+
+733
+01:02:09,925 --> 01:02:17,452
+[SPEAKER_02]: And I've sort of come to the tentative conclusion that, oh, I'm not going to be able to prove that.
+
+734
+01:02:18,112 --> 01:02:18,933
+[SPEAKER_00]: Right.
+
+735
+01:02:19,153 --> 01:02:28,401
+[SPEAKER_02]: And then so I need to take a different tack because I can't give a solid, you know, because people are using these things and they go, they seem to work.
+
+736
+01:02:28,882 --> 01:02:29,302
+[SPEAKER_02]: Yeah.
+
+737
+01:02:30,099 --> 01:02:35,261
+[SPEAKER_02]: And your video may be encountering the same problem.
+
+738
+01:02:35,281 --> 01:02:39,122
+[SPEAKER_02]: You're trying to solve it in a way that you can't.
+
+739
+01:02:39,702 --> 01:02:40,923
+[SPEAKER_00]: I think you're probably right.
+
+740
+01:02:41,343 --> 01:02:42,643
+[SPEAKER_02]: How do you know you're in the flow state?
+
+741
+01:02:42,983 --> 01:02:44,384
+[SPEAKER_02]: When you're in the flow state, you feel it.
+
+742
+01:02:44,544 --> 01:02:46,044
+[SPEAKER_02]: Yeah, it's like pornography.
+
+743
+01:02:46,944 --> 01:02:47,825
+[SPEAKER_02]: I know it when I see it.
+
+744
+01:02:48,285 --> 01:02:50,786
+[SPEAKER_02]: I know it when I'm in it.
+
+745
+01:02:51,346 --> 01:02:54,347
+[SPEAKER_00]: The inheritance thing is interesting because I was poking through a code base the other day.
+
+746
+01:02:54,447 --> 01:02:58,228
+[SPEAKER_00]: I'm trying to parallelize the tests, actually, because the tests take the longest time.
+
+747
+01:02:58,926 --> 01:03:07,653
+[SPEAKER_00]: And the tests all inherit from an abstract test, which inherits from an abstract test.
+
+748
+01:03:07,713 --> 01:03:11,476
+[SPEAKER_00]: And I was like, no, why are you doing this?
+
+749
+01:03:12,336 --> 01:03:19,402
+[SPEAKER_00]: And this is an experienced programmer who's done this, like, how do I say, don't do that, apart from just saying, don't do that.
+
+750
+01:03:20,002 --> 01:03:21,944
+[SPEAKER_00]: Trust me, it's just not working.
+
+751
+01:03:22,872 --> 01:03:33,443
+[SPEAKER_02]: Yeah, we were talking about the most important statement in the Gang of Four design patterns book, which is prefer composition to inheritance, and it should probably be
+
+752
+01:03:35,151 --> 01:03:37,273
+[SPEAKER_02]: Don't do inheritance.
+
+753
+01:03:37,593 --> 01:03:39,575
+[SPEAKER_02]: But yeah.
+
+754
+01:03:39,755 --> 01:03:41,196
+[SPEAKER_02]: And it's like, it's the same thing.
+
+755
+01:03:41,236 --> 01:03:48,262
+[SPEAKER_02]: You can't really, especially because we've had all this background and it worked in small talk and all this kind of stuff.
+
+756
+01:03:48,322 --> 01:03:49,003
+[SPEAKER_02]: It's like, why?
+
+757
+01:03:49,283 --> 01:03:52,186
+[SPEAKER_02]: The problem is, if somebody asks, why shouldn't I do inheritance?
+
+758
+01:03:52,626 --> 01:03:56,490
+[SPEAKER_02]: Then it's like, oh, I can't explain the why.
+
+759
+01:03:56,510 --> 01:03:57,631
+[SPEAKER_02]: Just don't.
+
+760
+01:03:59,512 --> 01:04:01,713
+[SPEAKER_00]: It gets nasty when it gets nasty, right?
+
+761
+01:04:01,753 --> 01:04:08,175
+[SPEAKER_00]: And then the inheritance thing, when you're talking about, you know, the duck thing that they do when hit first Java, inheritance is kind of fine.
+
+762
+01:04:08,555 --> 01:04:13,497
+[SPEAKER_00]: But in these tests, these tests, for example, there's like 200 tests, they're integration tests.
+
+763
+01:04:13,997 --> 01:04:20,079
+[SPEAKER_00]: It has this huge set up and teardown in one abstract method, a different set up and teardown in the other abstract method.
+
+764
+01:04:20,699 --> 01:04:24,101
+[SPEAKER_00]: And this is only really nasty when you're talking about hundreds of tests.
+
+765
+01:04:25,796 --> 01:04:27,837
+[SPEAKER_00]: But you have to see that thing scale.
+
+766
+01:04:27,877 --> 01:04:29,038
+[SPEAKER_00]: It doesn't scale.
+
+767
+01:04:29,298 --> 01:04:34,220
+[SPEAKER_02]: See, that's the problem with all of these things, with exceptions, with inheritance and everything.
+
+768
+01:04:34,240 --> 01:04:35,901
+[SPEAKER_00]: They seem great at first.
+
+769
+01:04:36,061 --> 01:04:38,842
+[SPEAKER_02]: And in the small, it looks simple.
+
+770
+01:04:38,882 --> 01:04:39,482
+[SPEAKER_02]: It looks direct.
+
+771
+01:04:39,582 --> 01:04:41,503
+[SPEAKER_02]: But then you try and scale it.
+
+772
+01:04:41,863 --> 01:04:46,906
+[SPEAKER_02]: And you go, oh, for some reason, this isn't really working, like in the small.
+
+773
+01:04:47,606 --> 01:04:57,352
+[SPEAKER_02]: We talked about this, well, back this idea that decision making through, through like quorum or something works great until you get to like five or seven people.
+
+774
+01:04:57,872 --> 01:05:01,454
+[SPEAKER_02]: And then you can no longer use that model for decision making.
+
+775
+01:05:01,514 --> 01:05:01,714
+[SPEAKER_00]: Yes.
+
+776
+01:05:01,734 --> 01:05:02,755
+[SPEAKER_00]: It's a lot of parallels to like.
+
+777
+01:05:02,775 --> 01:05:11,200
+[SPEAKER_02]: I think in terms of, I think we were talking about in terms of like language design and stuff, you have like three people and everything works really great.
+
+778
+01:05:11,260 --> 01:05:12,781
+[SPEAKER_02]: You go, well, I'll just make that bigger.
+
+779
+01:05:12,801 --> 01:05:15,983
+[SPEAKER_02]: And it's like, nope, doesn't work because of the psychological factors.
+
+780
+01:05:16,403 --> 01:05:40,276
+[SPEAKER_00]: Right yeah and we don't argue like trying to make decisions at home so I have a husband and two children honestly more than one person involved in the decision making is too difficult especially when you're talking about like well he's working now and then but I'll be working later and then he's got a meeting and then the kids have got a thing and then you don't speak for like three days and it would have been easy just to make the decision there and then and even if it's wrong it's just better.
+
+781
+01:05:40,976 --> 01:05:41,557
+[SPEAKER_02]: Yeah.
+
+782
+01:05:41,837 --> 01:05:48,681
+[SPEAKER_02]: Well, that's something I took a workshop in holocracy from the guy who created this idea.
+
+783
+01:05:49,241 --> 01:06:04,692
+[SPEAKER_02]: And the thing that mostly I got out of it was we front load our decisions with... When we make a decision, we go through all of this work to make sure it's the right decision.
+
+784
+01:06:05,552 --> 01:06:12,454
+[SPEAKER_02]: because if we have to revisit it, we assume we'll have to go through all that work again.
+
+785
+01:06:13,034 --> 01:06:21,696
+[SPEAKER_02]: And so this approach is you make the quickest decision that you can that doesn't have any obvious, you know, disproval.
+
+786
+01:06:22,416 --> 01:06:30,798
+[SPEAKER_02]: And then if it doesn't work, then you revisit it and you again make a quick decision rather than trying to presciently know
+
+787
+01:06:31,718 --> 01:06:37,139
+[SPEAKER_02]: everything about it when you make the decision, which makes it so heavyweight that you never want to revisit it.
+
+788
+01:06:37,779 --> 01:06:39,200
+[SPEAKER_00]: I think you've just changed my life.
+
+789
+01:06:39,900 --> 01:06:42,020
+[SPEAKER_00]: I think that would make my life a lot easier.
+
+790
+01:06:42,921 --> 01:06:43,181
+[SPEAKER_02]: Yes.
+
+791
+01:06:44,881 --> 01:06:52,203
+[SPEAKER_02]: As part of that, there's also the concept of like being able to perform kind of experiments that then you can validate to make the right decision or something.
+
+792
+01:06:52,223 --> 01:06:53,303
+[SPEAKER_02]: Yes, little experiments.
+
+793
+01:06:53,323 --> 01:06:54,543
+[SPEAKER_02]: Yeah, exactly.
+
+794
+01:06:54,764 --> 01:06:57,144
+[SPEAKER_02]: It's the same, I think it's the same sort of mindset.
+
+795
+01:06:57,164 --> 01:06:57,304
+[SPEAKER_02]: Yeah.
+
+796
+01:06:59,485 --> 01:07:00,205
+[SPEAKER_02]: Anything else, Tricia?
+
+797
+01:07:01,570 --> 01:07:03,352
+[SPEAKER_00]: No, I should probably go and check on my children.
+
+798
+01:07:03,372 --> 01:07:05,694
+[SPEAKER_00]: I have left them being babysat by Minecraft.
+
+799
+01:07:07,176 --> 01:07:08,117
+[SPEAKER_00]: I do that as well.
+
+800
+01:07:08,337 --> 01:07:09,378
+[SPEAKER_02]: It's a good babysitter.
+
+801
+01:07:11,340 --> 01:07:13,042
+[SPEAKER_02]: Well, thank you so much for joining us.
+
+802
+01:07:13,062 --> 01:07:13,763
+[SPEAKER_02]: That was super fun.
+
+803
+01:07:14,343 --> 01:07:15,124
+[SPEAKER_00]: Thank you for having me.
+
+804
+01:07:15,144 --> 01:07:15,925
+[SPEAKER_00]: This is really great.
+
+805
+01:07:16,506 --> 01:07:16,966
+[SPEAKER_02]: All right.
+
+806
+01:07:17,367 --> 01:07:17,627
+[SPEAKER_02]: Bye.
+
