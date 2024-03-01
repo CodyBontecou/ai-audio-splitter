@@ -5,43 +5,54 @@ from difflib import SequenceMatcher
 
 
 def find_paragraph_timing(data, paragraph):
-    accumulated_text = ""
+    # Initialize variables for tracking the best match and its corresponding times
     best_match_ratio = 0.0
-    start_time, end_time = None, None
-    threshold_for_start = 0.2  # Lower threshold to catch the start more accurately
+    best_match_start_time = None
+    best_match_end_time = None
 
+    # Initialize a list to accumulate words and track the current match ratio
+    accumulated_text = ""
+    current_start_time = None
+
+    # Iterate over each segment and then each word within the segment
     for segment in data['segments']:
-        if accumulated_text:  # Ensure there's preceding text to compare
-            # Pre-append current segment text to check if it improves match significantly
-            test_accumulated_text = accumulated_text + " " + segment['text']
-            matcher_pre = SequenceMatcher(None, test_accumulated_text.strip(), paragraph)
-            match_ratio_pre = matcher_pre.ratio()
+        for word_info in segment['words']:
+            # If we're starting a new accumulation, update the current start time
+            if not accumulated_text:
+                current_start_time = word_info['start']
+            
+            # Add the current word to the accumulated text
+            accumulated_text += word_info['word'] + " "
+            
+            # Calculate the match ratio of the accumulated text to the target paragraph
+            match_ratio = SequenceMatcher(None, accumulated_text.strip(), paragraph).ratio()
 
-            # If this segment improves the match significantly, consider it a potential start
-            if match_ratio_pre > best_match_ratio and match_ratio_pre > threshold_for_start and not start_time:
-                start_time = segment['start']
-                best_match_ratio = match_ratio_pre  # Update the best match seen so far
+            # Update the best match if the current ratio is higher
+            if match_ratio > best_match_ratio:
+                best_match_ratio = match_ratio
+                best_match_start_time = current_start_time
+                best_match_end_time = word_info['end']
+            
+            # Criteria to reset the accumulation: if the text diverges significantly from the paragraph
+            if match_ratio < 0.5 and len(accumulated_text) > len(paragraph) / 2:
+                accumulated_text = ""
+                current_start_time = None
 
-        # Continue to accumulate text and update end time based on best match
-        accumulated_text += " " + segment['text']
-        matcher = SequenceMatcher(None, accumulated_text.strip(), paragraph)
-        match_ratio = matcher.ratio()
-
-        if match_ratio > best_match_ratio:
-            best_match_ratio = match_ratio
-            end_time = segment['end']  # Update end time as we find better matches
-
-    return start_time, end_time
+    return best_match_start_time, best_match_end_time
 
 # JSON data
 with open('split_17.json', 'r') as f:
     data = json.load(f)
 
 # Example paragraph text
-paragraph_text = "As we were talking about observability for build systems, I wanted to ask you if you've seen this concept that I saw somebody talking about on Twitter a while back, which was the concept was, or the question was, why don't we write tests for a build system? We write tests for our software to verify that our production system is going to work, why don't we write tests to validate that our build system is doing what we expect it to and doing it in the amount of time that we expect it to and so forth."
+text1 = "As we were talking about observability for build systems, I wanted to ask you if you've seen this concept that I saw somebody talking about on Twitter a while back, which was the concept was, or the question was, why don't we write tests for a build system? We write tests for our software to verify that our production system is going to work, why don't we write tests to validate that our build system is doing what we expect it to and doing it in the amount of time that we expect it to and so forth."
+
+text2 = "One of the reasons we switched to Gradle a long time ago in one of the places I worked is because you could separate out the build logic into modules that you could test. We tended not to. We were using AMP before as well. So you could do it with AMP because you can write little Java code and test that. I mean, it's kind of difficult because sometimes what you want to test is it moves a file from here to here. And like, that's the sort of difficult thing to unit test, right?"
+
+text3 = "With a build scan you can see like visually the parallelism of your build so you can see like it's run five different threads and this is where the tasks were run and I really like that because it's not quite the same as an automated test but it's at least some kind of feedback into what is happening in the build. And so I use these build scans to be like, I want to tune the build now I want to, with this build I was trying to add parallelization, add the build cache."
 
 # Call the function with the JSON data and the paragraph text
-start, end = find_paragraph_timing(data, paragraph_text)
+start, end = find_paragraph_timing(data, text2)
 
 print(f"Start: {start}, End: {end}")
 
