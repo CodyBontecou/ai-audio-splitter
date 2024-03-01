@@ -2,6 +2,28 @@ import json
 import nltk
 from pydub import AudioSegment
 from difflib import SequenceMatcher
+from openai import OpenAI
+from dotenv import load_dotenv
+
+
+load_dotenv()
+client = OpenAI()
+
+with open('split_17.txt', 'r') as file:
+    transcript_text = file.read()
+
+generate_prompt = lambda text : f"${text} Give me three sections of text extracted from this block of text that you believe to be the most interesting and worth sharing with others. Make sure the sections of text are at least 50 words longs. Do not create any text yourself and instead only use sentences from what was provided above."
+
+response = client.chat.completions.create(
+  model="gpt-3.5-turbo-0125",
+  response_format={ "type": "json_object" },
+  messages=[
+    {"role": "system", "content": "You are a helpful assistant designed to output JSON."},
+    {"role": "user", "content": generate_prompt(transcript_text)}
+  ]
+)
+
+gpt_json = response.choices[0].message.content
 
 
 def find_paragraph_timing(data, paragraph):
@@ -38,6 +60,8 @@ def find_paragraph_timing(data, paragraph):
                 accumulated_text = ""
                 current_start_time = None
 
+    print(f"Start: {best_match_start_time}, End: {best_match_end_time}")
+
     return best_match_start_time, best_match_end_time
 
 # JSON data
@@ -51,10 +75,7 @@ text2 = "One of the reasons we switched to Gradle a long time ago in one of the 
 
 text3 = "With a build scan you can see like visually the parallelism of your build so you can see like it's run five different threads and this is where the tasks were run and I really like that because it's not quite the same as an automated test but it's at least some kind of feedback into what is happening in the build. And so I use these build scans to be like, I want to tune the build now I want to, with this build I was trying to add parallelization, add the build cache."
 
-# Call the function with the JSON data and the paragraph text
-start, end = find_paragraph_timing(data, text2)
 
-print(f"Start: {start}, End: {end}")
 
 
 def extract_audio_segment(file_path, start_time, end_time, output_file):
@@ -80,8 +101,11 @@ def extract_audio_segment(file_path, start_time, end_time, output_file):
     # Save the extracted segment to a new file
     extracted_segment.export(output_file, format="wav")
 
-# Example usage
-file_path = 'hp-output/split_17.wav'  # Update this to your audio file's path
-output_file = 'split_17_test.wav'  # Update this to your desired output path
 
-extract_audio_segment(file_path, start, end, output_file)
+file_path = 'hp-output/wav/split_17.wav'
+
+for key, value in json.loads(gpt_json).items():
+    print(f"Key: {key}, Value: {value}")
+    # Call the function with the JSON data and the paragraph text
+    start, end = find_paragraph_timing(data, value)
+    extract_audio_segment(file_path, start, end, f'split_17_{key}.wav')
