@@ -1,0 +1,95 @@
+WEBVTT
+
+00:00.269 --> 00:27.248
+[SPEAKER_00]: out of them and that will make if you can produce more whatever that is more features or you know I don't even know how it works if the code that the developers are producing is going to increase revenue then we should be focusing on that not on decreasing headcount because as you've already said like decreasing headcount doesn't make any sense because you're going to decrease costs sure but you're also decreasing throughput and then you're also decreasing your ability to
+
+00:27.828 --> 00:32.870
+[SPEAKER_00]: improve that in the future because now everyone hates you.
+
+00:33.130 --> 00:34.010
+[SPEAKER_02]: Switching gears real quick.
+
+00:36.291 --> 00:50.875
+[SPEAKER_02]: As we were talking about observability for build systems, I wanted to ask you if you've seen this concept that I saw somebody talking about on Twitter a while back, which was the concept was, or the question was, why don't we write tests for a build system?
+
+00:50.915 --> 00:52.196
+[SPEAKER_02]: We write tests for our software
+
+00:53.257 --> 01:03.131
+[SPEAKER_02]: to verify that our production system is going to work, why don't we write tests to validate that our build system is doing what we expect it to and doing it in the amount of time that we expect it to and so forth.
+
+01:03.451 --> 01:07.537
+[SPEAKER_02]: Have you seen this idea explored or is anybody doing this?
+
+01:08.138 --> 01:09.479
+[SPEAKER_00]: I think this is a great idea.
+
+01:09.859 --> 01:23.986
+[SPEAKER_00]: And it's ringing bells for me because one of the reasons we switched to Gradle a long time ago in one of the places I worked is because you could separate out the build logic into modules that you could test.
+
+01:25.147 --> 01:26.048
+[SPEAKER_00]: We tended not to.
+
+01:26.968 --> 01:28.249
+[SPEAKER_00]: We were using AMP before as well.
+
+01:28.269 --> 01:32.111
+[SPEAKER_00]: So you could do it with AMP because you can write little Java code and test that.
+
+01:33.680 --> 01:38.486
+[SPEAKER_00]: I mean, it's kind of difficult because sometimes what you want to test is it moves a file from here to here.
+
+01:38.627 --> 01:41.110
+[SPEAKER_00]: And like, that's the sort of difficult thing to unit test, right?
+
+01:41.571 --> 01:48.560
+[SPEAKER_00]: So, yeah, I mean, I would love to test a build system and check that it's doing what I think it's doing.
+
+01:48.660 --> 01:50.563
+[SPEAKER_00]: And I think the first thing that
+
+01:51.789 --> 01:59.117
+[SPEAKER_00]: that one of the things I like about Devalosti, not to pound it too hard, because actually, like, I'm still fairly new to to Gradle.
+
+01:59.457 --> 02:04.022
+[SPEAKER_00]: And I'm still kind of, in many ways, I'm still trying to get them to sell to me, like, what is this product?
+
+02:04.102 --> 02:05.003
+[SPEAKER_00]: And what's it for?
+
+02:05.063 --> 02:09.327
+[SPEAKER_00]: Because like, I'm not the kind of advocate who's just going to go out and sell a product.
+
+02:09.547 --> 02:10.528
+[SPEAKER_00]: I really have to believe in it.
+
+02:10.808 --> 02:14.212
+[SPEAKER_00]: But one of the things I like about Devalosti, and I was using it today in a video, is
+
+02:15.313 --> 02:37.831
+[SPEAKER_00]: well it's actually not even dev velocity it's the free build scans so that's nice it's free so anyone can use it with a build scan you can see like visually the the parallelism of your build so you can see like it's run five different threads and this is where the tasks were run and and I really like that because it's not quite the same as an automated test but it's at least some kind of
+
+02:38.942 --> 02:41.884
+[SPEAKER_00]: feedback into what is happening in the build.
+
+02:42.184 --> 02:52.429
+[SPEAKER_00]: And so I use these build scans to be like, I want to tune the build now I want to, with this build I was trying to add parallelization, add parallelism, add the build cache.
+
+02:52.829 --> 02:55.631
+[SPEAKER_00]: And then I wanted to also parallelize the
+
+02:56.091 --> 02:59.074
+[SPEAKER_00]: individual tests, which is a separate thing too.
+
+02:59.394 --> 03:06.300
+[SPEAKER_00]: And so I can use the build scan and look at them side by side, and obviously I can look at the overall time, but I can see, are these things running parallel?
+
+03:06.960 --> 03:10.924
+[SPEAKER_00]: Which things came from the cache versus which compilations needed to happen again?
+
+03:11.324 --> 03:18.230
+[SPEAKER_00]: And you can even do side by side comparison in terms of like, things like, which dependencies did this build use versus this build?
+
+03:18.270 --> 03:19.991
+[SPEAKER_00]: So, I mean, that's kind of the first step.
+

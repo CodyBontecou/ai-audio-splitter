@@ -1,0 +1,32 @@
+start	end	text
+269	27248	out of them and that will make if you can produce more whatever that is more features or you know I don't even know how it works if the code that the developers are producing is going to increase revenue then we should be focusing on that not on decreasing headcount because as you've already said like decreasing headcount doesn't make any sense because you're going to decrease costs sure but you're also decreasing throughput and then you're also decreasing your ability to
+27828	32870	improve that in the future because now everyone hates you.
+33130	34010	Switching gears real quick.
+36291	50875	As we were talking about observability for build systems, I wanted to ask you if you've seen this concept that I saw somebody talking about on Twitter a while back, which was the concept was, or the question was, why don't we write tests for a build system?
+50915	52196	We write tests for our software
+53257	63131	to verify that our production system is going to work, why don't we write tests to validate that our build system is doing what we expect it to and doing it in the amount of time that we expect it to and so forth.
+63451	67537	Have you seen this idea explored or is anybody doing this?
+68138	69479	I think this is a great idea.
+69859	83986	And it's ringing bells for me because one of the reasons we switched to Gradle a long time ago in one of the places I worked is because you could separate out the build logic into modules that you could test.
+85147	86048	We tended not to.
+86968	88249	We were using AMP before as well.
+88269	92111	So you could do it with AMP because you can write little Java code and test that.
+93680	98486	I mean, it's kind of difficult because sometimes what you want to test is it moves a file from here to here.
+98627	101110	And like, that's the sort of difficult thing to unit test, right?
+101571	108560	So, yeah, I mean, I would love to test a build system and check that it's doing what I think it's doing.
+108660	110563	And I think the first thing that
+111789	119117	that one of the things I like about Devalosti, not to pound it too hard, because actually, like, I'm still fairly new to to Gradle.
+119457	124022	And I'm still kind of, in many ways, I'm still trying to get them to sell to me, like, what is this product?
+124102	125003	And what's it for?
+125063	129327	Because like, I'm not the kind of advocate who's just going to go out and sell a product.
+129547	130528	I really have to believe in it.
+130808	134212	But one of the things I like about Devalosti, and I was using it today in a video, is
+135313	157831	well it's actually not even dev velocity it's the free build scans so that's nice it's free so anyone can use it with a build scan you can see like visually the the parallelism of your build so you can see like it's run five different threads and this is where the tasks were run and and I really like that because it's not quite the same as an automated test but it's at least some kind of
+158942	161884	feedback into what is happening in the build.
+162184	172429	And so I use these build scans to be like, I want to tune the build now I want to, with this build I was trying to add parallelization, add parallelism, add the build cache.
+172829	175631	And then I wanted to also parallelize the
+176091	179074	individual tests, which is a separate thing too.
+179394	186300	And so I can use the build scan and look at them side by side, and obviously I can look at the overall time, but I can see, are these things running parallel?
+186960	190924	Which things came from the cache versus which compilations needed to happen again?
+191324	198230	And you can even do side by side comparison in terms of like, things like, which dependencies did this build use versus this build?
+198270	199991	So, I mean, that's kind of the first step.
