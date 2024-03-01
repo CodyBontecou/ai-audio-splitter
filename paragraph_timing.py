@@ -9,23 +9,6 @@ from dotenv import load_dotenv
 load_dotenv()
 client = OpenAI()
 
-with open('split_17.txt', 'r') as file:
-    transcript_text = file.read()
-
-generate_prompt = lambda text : f"${text} Give me three sections of text extracted from this block of text that you believe to be the most interesting and worth sharing with others. Make sure the sections of text are at least 50 words longs. Do not create any text yourself and instead only use sentences from what was provided above."
-
-response = client.chat.completions.create(
-  model="gpt-3.5-turbo-0125",
-  response_format={ "type": "json_object" },
-  messages=[
-    {"role": "system", "content": "You are a helpful assistant designed to output JSON."},
-    {"role": "user", "content": generate_prompt(transcript_text)}
-  ]
-)
-
-gpt_json = response.choices[0].message.content
-
-
 def find_paragraph_timing(data, paragraph):
     # Initialize variables for tracking the best match and its corresponding times
     best_match_ratio = 0.0
@@ -64,19 +47,6 @@ def find_paragraph_timing(data, paragraph):
 
     return best_match_start_time, best_match_end_time
 
-# JSON data
-with open('split_17.json', 'r') as f:
-    data = json.load(f)
-
-# Example paragraph text
-text1 = "As we were talking about observability for build systems, I wanted to ask you if you've seen this concept that I saw somebody talking about on Twitter a while back, which was the concept was, or the question was, why don't we write tests for a build system? We write tests for our software to verify that our production system is going to work, why don't we write tests to validate that our build system is doing what we expect it to and doing it in the amount of time that we expect it to and so forth."
-
-text2 = "One of the reasons we switched to Gradle a long time ago in one of the places I worked is because you could separate out the build logic into modules that you could test. We tended not to. We were using AMP before as well. So you could do it with AMP because you can write little Java code and test that. I mean, it's kind of difficult because sometimes what you want to test is it moves a file from here to here. And like, that's the sort of difficult thing to unit test, right?"
-
-text3 = "With a build scan you can see like visually the parallelism of your build so you can see like it's run five different threads and this is where the tasks were run and I really like that because it's not quite the same as an automated test but it's at least some kind of feedback into what is happening in the build. And so I use these build scans to be like, I want to tune the build now I want to, with this build I was trying to add parallelization, add the build cache."
-
-
-
 
 def extract_audio_segment(file_path, start_time, end_time, output_file):
     """
@@ -102,10 +72,30 @@ def extract_audio_segment(file_path, start_time, end_time, output_file):
     extracted_segment.export(output_file, format="wav")
 
 
+with open('split_17.txt', 'r') as file:
+    transcript_text = file.read()
+
+generate_prompt = lambda text : f"${text} Give me three sections of text extracted from this block of text that you believe to be the most interesting and worth sharing with others. Make sure the sections of text are at least 50 words longs. Do not create any text yourself and instead only use sentences from what was provided above."
+
+response = client.chat.completions.create(
+  model="gpt-3.5-turbo-0125",
+  response_format={ "type": "json_object" },
+  messages=[
+    {"role": "system", "content": "You are a helpful assistant designed to output JSON."},
+    {"role": "user", "content": generate_prompt(transcript_text)}
+  ]
+)
+
+gpt_json = response.choices[0].message.content
+
+# JSON data
+with open('split_17.json', 'r') as f:
+    split_json_data = json.load(f)
+
 file_path = 'hp-output/wav/split_17.wav'
 
 for key, value in json.loads(gpt_json).items():
     print(f"Key: {key}, Value: {value}")
     # Call the function with the JSON data and the paragraph text
-    start, end = find_paragraph_timing(data, value)
-    extract_audio_segment(file_path, start, end, f'split_17_{key}.wav')
+    start_time, end_time = find_paragraph_timing(split_json_data, value)
+    extract_audio_segment(file_path, start_time, end_time, f'split_17_{key}.wav')
